@@ -27,12 +27,16 @@ The goals of the backend configuration of To Be the Best is to:
 
 The layout of the repository is as follows:
 * This README.md file
-* The `/backend` directory which will contain the code used to handle and pass data from the database to the frontend.
-* The `/database` directory which will contain the code to scrape information from websites and handle scraped information that will be stored in the database.
+* The `backend/` directory which will contain the code used to handle and pass data from the database to the frontend.
+* The `database/` directory which will contain the code to scrape information from websites and handle scraped information that will be stored in the database.
 
 ## Installation
 
 Provide instructions on how to install and set up your project. Include any dependencies or prerequisites.
+* Prerequisites: Must be using Google Chrome and have access to the [Chrome Web Store](https://chromewebstore.google.com/)
+* Installation: 
+  * Step 1: Install the ToBeTheBest Extension on the [Chrome Web Store] (https://chromewebstore.google.com/) (Not yet available)
+  * Step 2: Go to [Pokemon Showdown](https://play.pokemonshowdown.com/) and activate the extension
 
 ## Usage
 
