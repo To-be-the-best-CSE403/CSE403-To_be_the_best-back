@@ -40,7 +40,8 @@ Provide instructions on how to install and set up your project. Include any depe
 
 ## Usage
 
-Explain how to use your project. Provide code examples or usage scenarios to help users understand how to interact with your project.
+The purpose of this repository is to serve as a guide for how data is stored and communicated between the database and the frontend of the extension.
+The user is not intended to manipulate the code in this repository.
 
 ## Contributing
 
