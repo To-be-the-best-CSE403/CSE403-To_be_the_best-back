@@ -35,7 +35,7 @@ The layout of the repository is as follows:
 Provide instructions on how to install and set up your project. Include any dependencies or prerequisites.
 * Prerequisites: Must be using Google Chrome and have access to the [Chrome Web Store](https://chromewebstore.google.com/)
 * Installation: 
-  * Step 1: Install the ToBeTheBest Extension on the [Chrome Web Store] (https://chromewebstore.google.com/) (Not yet available)
+  * Step 1: Install the ToBeTheBest Extension on the [Chrome Web Store](https://chromewebstore.google.com/) (Not yet available)
   * Step 2: Go to [Pokemon Showdown](https://play.pokemonshowdown.com/) and activate the extension
 
 ## Usage
