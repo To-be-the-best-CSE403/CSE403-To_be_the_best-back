@@ -1,4 +1,4 @@
-# CSE403-To-be-the-best-back
+# ToBeTheBest Backend Repository
 
 ## Table of Contents
 
