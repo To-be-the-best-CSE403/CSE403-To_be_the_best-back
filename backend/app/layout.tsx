@@ -1,7 +1,7 @@
-import "./globals.css";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import "@mantine/core/styles.css";
+import React from "react";
+import { ColorSchemeScript, MantineProvider } from "@mantine/core";
+import { theme } from "../theme";
 
 export const metadata = {
   title: "ToBeTheBest",
@@ -14,8 +14,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div className="min-h-screen w-4/5 m-auto py-24">{children}</div>
+      <head>
+        <ColorSchemeScript />
+        <link rel="shortcut icon" href="/favicon.svg" />
+        <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
+        />
+      </head>
+      <body>
+        <MantineProvider theme={theme}>{children}</MantineProvider>
       </body>
     </html>
   );
