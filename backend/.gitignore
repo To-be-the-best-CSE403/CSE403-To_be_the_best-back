@@ -37,3 +37,6 @@ __pycache__
 
 # vscode
 .vscode/*
+
+# python
+venv/
