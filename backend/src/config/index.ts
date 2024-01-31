@@ -1,12 +1,13 @@
-import { IconComponents, IconDashboard, IconLock, IconMoodSmile } from '@tabler/icons-react';
+import { IconCompass, IconDashboard, IconDeviceAnalytics, IconGauge, IconPokeball } from '@tabler/icons-react';
 import { NavItem } from '@/types/nav-item';
 
 export const navLinks: NavItem[] = [
+	{ label: 'Getting Started', icon: IconCompass, link: '/dashboard/getting-started' },
 	{ label: 'Dashboard', icon: IconDashboard, link: '/dashboard' },
 
 	{
 		label: 'Team Builder',
-		icon: IconComponents,
+		icon: IconPokeball,
 		initiallyOpened: true,
 		links: [
 			{
@@ -21,7 +22,7 @@ export const navLinks: NavItem[] = [
 	},
 	{
 		label: 'Usage Rate',
-		icon: IconLock,
+		icon: IconGauge,
 		initiallyOpened: true,
 		links: [
 			{
@@ -32,7 +33,7 @@ export const navLinks: NavItem[] = [
 	},
 	{
 		label: 'Common Movesets',
-		icon: IconMoodSmile,
+		icon: IconDeviceAnalytics,
 		initiallyOpened: true,
 		links: [
 			{

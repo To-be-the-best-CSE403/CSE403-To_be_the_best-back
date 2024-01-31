@@ -26,7 +26,7 @@ export function HeroSection() {
             size="lg"
             className={classes.control}
             onClick={() => {
-              router.push("/dashboard");
+              router.push("/dashboard/getting-started");
             }}
             rightSection={<IconArrowRight />}
           >
