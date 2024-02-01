@@ -3,18 +3,13 @@ from flask import Blueprint, request, jsonify
 views = Blueprint('views', __name__)
 
 
-@views.route('/')
-def api_index():
-    return 'Index'
-
-
 @views.route('/home')
 def api_home():
     return 'Hello, World!'
 
 
-@views.route('/generate-team')
-def api_generate_team():
+@views.route('/teambuilder')
+def api_teambuilder():
     return [
         {
             'name': 'Pikachu',
