@@ -1,15 +1,30 @@
-from flask import Blueprint
+import pytest
+from api.index import app as flask_app
 
-test_views = Blueprint('test_test_views', __name__)
+@pytest.fixture
+def client():
+    with flask_app.test_client() as client:
+        yield client
 
+def test_api_example(client):
+    # Send a GET request to the api endpoint
+    response = client.get('/api/test/home')
+    
+    # Check that the response status code is 200 (OK)
+    assert response.status_code == 200
+    
+    # Check that the response data is as expected
+    assert response.data == b'Test API'
 
-@test_views.route('/home')
-def api_index():
-    return 'Test API'
-
-@test_views.route('/teambuilder', methods=['GET'])
-def api_teambuilder():
-    return [
+def test_api_teambuilder(client):
+    # Send a GET request to the api test '/teambuilder' endpoint
+    response = client.get('/api/test/teambuilder')
+    
+    # Check that the response status code is 200 (OK)
+    assert response.status_code == 200
+    
+    # Check that the response data is as expected
+    expected_data = [
         {
             "name": "",
             "species": "Articuno",
@@ -72,3 +87,4 @@ def api_teambuilder():
             "moves": ["X-Scissor", "Stone Edge", "Aqua Tail", "Rapid Spin"]
         }
     ]
+    assert response.json == expected_data
