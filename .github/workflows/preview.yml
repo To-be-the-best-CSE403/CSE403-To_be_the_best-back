@@ -13,7 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run Tests
-        run: pytest
+        run: |
+          cd backend
+          npm run test
       - name: Install Vercel CLI
         if: success()
         run: npm install --global vercel@latest
