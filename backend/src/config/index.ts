@@ -3,7 +3,7 @@ import { NavItem } from '@/types/nav-item';
 
 export const navLinks: NavItem[] = [
 	{ label: 'Getting Started', icon: IconCompass, link: '/dashboard/getting-started' },
-	{ label: 'Dashboard', icon: IconDashboard, link: '/dashboard' },
+	//{ label: 'Dashboard', icon: IconDashboard, link: '/dashboard' },
 
 	{
 		label: 'Team Builder',
