@@ -5,8 +5,10 @@
 # normal, fire, water, grass, electric, ice
 # fighting, poison, ground, flying, psychic, bug
 # rock, ghost, dragon, dark, steel, fairy
-effectiveness_1v1 = {
-    (): ,
+normal_effectiveness_against = {
+    ("normal", "normal"): , ("normal", "fire"): , ("normal", "water"): , ("normal", "grass"): , ("normal", "electric"): , ("normal", "ice"): ,
+    ("normal", "fighting"): , ("normal", "poison"): , ("normal", "ground"): , ("normal", "flying"): , ("normal", "psychic"): , ("normal", "bug"): ,
+    ("normal", "rock"): , ("normal", "ghost"): , ("normal", "dragon"): , ("normal", "dark"): , ("normal", "steel"): , ("normal", "fairy"): ,
 }
 
 def check_effectiveness(move, defending_pokemon):
