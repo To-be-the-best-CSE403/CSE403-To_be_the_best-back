@@ -1,0 +1,128 @@
+[
+  [
+    {
+      "name": "",
+      "species": "Volcarona",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Flame Body",
+      "evs": { "hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252 },
+      "nature": "Timid",
+      "ivs": { "hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "moves": ["Quiver Dance", "Bug Buzz", "Flamethrower", "Tera Blast"]
+    },
+    {
+      "name": "",
+      "species": "Hatterene",
+      "gender": "",
+      "item": "Leftovers",
+      "ability": "Magic Bounce",
+      "evs": { "hp": 252, "atk": 0, "def": 200, "spa": 0, "spd": 0, "spe": 56 },
+      "nature": "Bold",
+      "moves": ["Calm Mind", "Draining Kiss", "Psyshock", "Mystical Fire"]
+    },
+    {
+      "name": "",
+      "species": "Roaring Moon",
+      "gender": "",
+      "item": "Booster Energy",
+      "ability": "Protosynthesis",
+      "evs": { "hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252 },
+      "nature": "Jolly",
+      "moves": ["Dragon Dance", "Knock Off", "Acrobatics", "Earthquake"]
+    },
+    {
+      "name": "",
+      "species": "Glimmora",
+      "gender": "",
+      "item": "Focus Sash",
+      "ability": "Toxic Debris",
+      "evs": { "hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252 },
+      "nature": "Timid",
+      "moves": ["Stealth Rock", "Mortal Spin", "Earth Power", "Power Gem"]
+    },
+    {
+      "name": "",
+      "species": "Kingambit",
+      "gender": "",
+      "item": "Leftovers",
+      "ability": "Supreme Overlord",
+      "evs": { "hp": 208, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 48 },
+      "nature": "Adamant",
+      "moves": ["Swords Dance", "Low Kick", "Sucker Punch", "Iron Head"]
+    },
+    {
+      "name": "",
+      "species": "Iron Boulder",
+      "gender": "",
+      "item": "Booster Energy",
+      "ability": "Quark Drive",
+      "evs": { "hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252 },
+      "nature": "Jolly",
+      "moves": ["Zen Headbutt", "Close Combat", "Mighty Cleave", "Swords Dance"]
+    }
+  ],
+  [
+    {
+      "name": "",
+      "species": "Volcarona",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Flame Body",
+      "evs": { "hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252 },
+      "nature": "Modest",
+      "ivs": { "hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "moves": ["Quiver Dance", "Fiery Dance", "Giga Drain", "Tera Blast"]
+    },
+    {
+      "name": "",
+      "species": "Kingambit",
+      "gender": "",
+      "item": "Air Balloon",
+      "ability": "Supreme Overlord",
+      "evs": { "hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252 },
+      "nature": "Jolly",
+      "moves": ["Swords Dance", "Low Kick", "Sucker Punch", "Iron Head"]
+    },
+    {
+      "name": "",
+      "species": "Ogerpon-Wellspring",
+      "gender": "",
+      "item": "Wellspring Mask",
+      "ability": "Water Absorb",
+      "evs": { "hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252 },
+      "nature": "Jolly",
+      "moves": ["Ivy Cudgel", "Trailblaze", "Low Kick", "Swords Dance"]
+    },
+    {
+      "name": "",
+      "species": "Landorus-Therian",
+      "gender": "",
+      "item": "Rocky Helmet",
+      "ability": "Intimidate",
+      "evs": { "hp": 240, "atk": 0, "def": 44, "spa": 0, "spd": 0, "spe": 224 },
+      "nature": "Timid",
+      "moves": ["Stealth Rock", "Taunt", "Earth Power", "U-turn"]
+    },
+    {
+      "name": "",
+      "species": "Primarina",
+      "gender": "",
+      "item": "Custap Berry",
+      "ability": "Torrent",
+      "evs": { "hp": 76, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 176 },
+      "nature": "Modest",
+      "moves": ["Calm Mind", "Moonblast", "Hydro Pump", "Substitute"]
+    },
+    {
+      "name": "",
+      "species": "Dragapult",
+      "gender": "",
+      "item": "Focus Sash",
+      "ability": "Infiltrator",
+      "evs": { "hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252 },
+      "nature": "Hasty",
+      "moves": ["Dragon Darts", "Hex", "Will-O-Wisp", "Thunder Wave"]
+    }
+  ]
+]
