@@ -13,6 +13,15 @@ normal_effectiveness_against = {
 
 def check_effectiveness(move, defending_pokemon):
     # Query the type of the move
+    ## attacking_move_type =
+
     # Query type1 of the defending pokemon
+    ##type1_scalar =
+
     # Query type2 of the defending pokemon
+    ## type2_scalar =
+
+    # Calculate effectiveness scalar
+    total_scalar = type1_scalar * type2_scalar
+
     pass
