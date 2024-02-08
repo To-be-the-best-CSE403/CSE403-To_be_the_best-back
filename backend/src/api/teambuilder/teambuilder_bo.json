@@ -1,0 +1,147 @@
+[
+  [
+    {
+      "name": "",
+      "species": "Ting-Lu",
+      "gender": "",
+      "item": "Leftovers",
+      "ability": "Vessel of Ruin",
+      "evs": { "hp": 248, "atk": 0, "def": 40, "spa": 0, "spd": 216, "spe": 4 },
+      "nature": "Careful",
+      "moves": ["Earthquake", "Ruination", "Stealth Rock", "Whirlwind"]
+    },
+    {
+      "name": "",
+      "species": "Skarmory",
+      "gender": "",
+      "item": "Rocky Helmet",
+      "ability": "Sturdy",
+      "evs": { "hp": 248, "atk": 0, "def": 164, "spa": 0, "spd": 0, "spe": 96 },
+      "nature": "Impish",
+      "moves": ["Body Press", "Spikes", "Iron Defense", "Roost"]
+    },
+    {
+      "name": "",
+      "species": "Gholdengo",
+      "gender": "",
+      "item": "Air Balloon",
+      "ability": "Good as Gold",
+      "evs": {
+        "hp": 248,
+        "atk": 0,
+        "def": 176,
+        "spa": 0,
+        "spd": 12,
+        "spe": 72
+      },
+      "nature": "Bold",
+      "moves": ["Shadow Ball", "Make It Rain", "Nasty Plot", "Recover"]
+    },
+    {
+      "name": "",
+      "species": "Zamazenta",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Dauntless Shield",
+      "evs": {
+        "hp": 104,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 152
+      },
+      "nature": "Jolly",
+      "moves": ["Close Combat", "Crunch", "Stone Edge", "Heavy Slam"]
+    },
+    {
+      "name": "",
+      "species": "Meowscarada",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Protean",
+      "evs": { "hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252 },
+      "nature": "Jolly",
+      "moves": ["Knock Off", "Flower Trick", "U-turn", "Triple Axel"]
+    },
+    {
+      "name": "",
+      "species": "Toxapex",
+      "gender": "",
+      "item": "Regenerator",
+      "ability": "Protosynthesis",
+      "evs": { "hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 240, "spe": 20 },
+      "nature": "Calm",
+      "moves": ["Surf", "Toxic", "Haze", "Recover"]
+    }
+  ],
+  [
+    {
+      "name": "",
+      "species": "Kyurem",
+      "gender": "",
+      "item": "Choice Specs",
+      "ability": "Pressure",
+      "evs": { "hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252 },
+      "nature": "Timid",
+      "moves": ["Ice Beam", "Freeze-Dry", "Draco Meteor", "Earth Power"]
+    },
+    {
+      "name": "",
+      "species": "Slowking-Galar",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Regenerator",
+      "evs": { "hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0 },
+      "nature": "Sassy",
+      "moves": ["Future Sight", "Chilly Reception", "Sludge Bomb", "Slack Off"]
+    },
+    {
+      "name": "",
+      "species": "Gliscor",
+      "gender": "",
+      "item": "Toxic Orb",
+      "ability": "Poison Heal",
+      "evs": {
+        "hp": 244,
+        "atk": 0,
+        "def": 56,
+        "spa": 0,
+        "spd": 192,
+        "spe": 16
+      },
+      "nature": "Impish",
+      "moves": ["Earthquake", "Knock Off", "Protect", "Toxic"]
+    },
+    {
+      "name": "",
+      "species": "Skarmory",
+      "gender": "",
+      "item": "Rocky Helmet",
+      "ability": "Sturdy",
+      "evs": { "hp": 252, "atk": 0, "def": 160, "spa": 0, "spd": 0, "spe": 96 },
+      "nature": "Bold",
+      "moves": ["Body Press", "Iron Defense", "Roost", "Stealth Rock"]
+    },
+    {
+      "name": "",
+      "species": "Dragapult",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Infiltrator",
+      "evs": { "hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252 },
+      "nature": "Hasty",
+      "moves": ["Thunder Wave", "Will-O-Wisp", "Hex", "Dragon Darts"]
+    },
+    {
+      "name": "",
+      "species": "Kingambit",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Supreme Overlord",
+      "evs": { "hp": 208, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 48 },
+      "nature": "Adamant",
+      "moves": ["Swords Dance", "Kowtow Cleave", "Sucker Punch", "Iron Head"]
+    }
+  ]
+]
