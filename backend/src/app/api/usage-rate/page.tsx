@@ -3,7 +3,7 @@
 import React from "react";
 import UsageRateMdx from "./usage-rate.mdx";
 import BarChart from '@mantine/charts';
-import data from './temp_data';
+import temp_data from './temp_data.ts';
 
 export default function UsageRate() {
   return (
@@ -11,7 +11,7 @@ export default function UsageRate() {
       <UsageRateMdx />
         <BarChart
             h={300}
-            data={data}
+            data={temp_data}
             dataKey="pokemon"
             series={[
                 { name: 'Usage rate (%)', color: 'violet.6' }
