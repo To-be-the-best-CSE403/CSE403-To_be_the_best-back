@@ -14,6 +14,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@mantine/charts": "^7.5.1",
     "@mantine/core": "^7.5.0",
     "@mantine/hooks": "^7.5.0",
     "@mdx-js/loader": "^3.0.0",
