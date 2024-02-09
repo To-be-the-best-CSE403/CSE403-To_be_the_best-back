@@ -3,7 +3,7 @@
 import React from "react";
 import UsageRateMdx from "./usage-rate.mdx";
 import BarChart from '@mantine/charts';
-import temp_data from './temp_data.ts';
+import { temp_data } from './temp_data.ts';
 
 export default function UsageRate() {
   return (
