@@ -1,6 +1,6 @@
 // Info from: https://www.smogon.com/stats/2024-01/gen9vgc2024regfbo3-1760.txt
 
-export const data = [
+export const temp_data = [
   { pokemon: 'Flutter Mane', Usage: 71.86440 },
   { pokemon: 'Ogerpon-Wellspring', Usage: 45.95699 },
   { pokemon: 'Incineroar', Usage: 40.34741 },
