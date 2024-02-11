@@ -1,0 +1,11 @@
+{
+    "name": "",
+    "species": "Pikachu",
+    "type": "Electric",
+    "moves_against": [
+        "Earthquake",
+        "Ruination",
+        "Stealth Rock",
+        "Whirlwind"
+    ]
+}
