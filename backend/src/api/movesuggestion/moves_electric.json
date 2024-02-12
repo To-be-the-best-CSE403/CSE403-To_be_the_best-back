@@ -2,10 +2,19 @@
     "name": "",
     "species": "Pikachu",
     "type": "Electric",
-    "moves_against": [
+    "moves_effective": [
         "Earthquake",
-        "Ruination",
-        "Stealth Rock",
-        "Whirlwind"
+        "Stomping Tantrum",
+        "High Horsepower"
+    ],
+    "moves_normal": [
+        "Extreme Speed",
+        "Scald",
+        "Flare Blitz"
+    ],
+    "moves_ineffective": [
+        "Brave Bird",
+        "Thunder",
+        "Iron Tail"
     ]
 }
