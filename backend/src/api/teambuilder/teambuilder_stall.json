@@ -1,0 +1,64 @@
+[
+  [
+    {
+      "name": "",
+      "species": "Hydrapple",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Sticky Hold",
+      "evs": {"hp": 244, "atk": 0, "def": 252, "spa": 0, "spd": 12, "spe": 0},
+      "nature": "Bold",
+      "moves": ["Recover", "Body Press", "Giga Drain", "Tera Blast"]
+    },
+    {
+      "name": "",
+      "species": "Blissey",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Natural Cure",
+      "evs": {"hp": 4, "atk": 0, "def": 252, "spa": 0, "spd": 252, "spe": 0},
+      "nature": "Calm",
+      "moves": ["Soft-Boiled", "Calm Mind", "Stealth Rock", "Seismic Toss"]
+    },
+    {
+      "name": "",
+      "species": "Dondozo",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Unaware",
+      "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0},
+      "nature": "Impish",
+      "moves": ["Waterfall", "Rest", "Sleep Talk", "Curse"]
+    },
+    {
+      "name": "",
+      "species": "Clodsire",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Unaware",
+      "evs": {"hp": 116, "atk": 0, "def": 148, "spa": 0, "spd": 244, "spe": 0},
+      "nature": "Careful",
+      "moves": ["Recover", "Amnesia", "Poison Sting", "Bulldoze"]
+    },
+    {
+      "name": "",
+      "species": "Alomomola",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Regenerator",
+      "evs": {"hp": 12, "atk": 0, "def": 252, "spa": 0, "spd": 244, "spe": 0},
+      "nature": "Relaxed",
+      "moves": ["Wish", "Protect", "Scald", "Flip Turn"]
+    },
+    {
+      "name": "",
+      "species": "Gliscor",
+      "gender": "",
+      "item": "Toxic Orb",
+      "ability": "Poison Heal",
+      "evs": {"hp": 244, "atk": 0, "def": 252, "spa": 0, "spd": 12, "spe": 0},
+      "nature": "Impish",
+      "moves": ["Protect", "Knock Off", "Spikes", "Poison Jab"]
+    }
+  ]
+]

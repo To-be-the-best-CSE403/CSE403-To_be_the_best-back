@@ -1,0 +1,128 @@
+[
+    [
+        {
+          "name": "",
+          "species": "Torkoal",
+          "gender": "",
+          "item": "Heat Rock",
+          "ability": "Drought",
+          "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 8, "spd": 252, "spe":0},
+          "nature": "Bold",
+          "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+          "moves": ["Lava Plume", "Stealth Rock", "Rapid Spin", "Earth Power"]
+        },
+        {
+          "name": "",
+          "species": "Walking Wake",
+          "gender": "",
+          "item": "Choice Specs",
+          "ability": "Protosynthesis",
+          "evs": {"hp": 8, "atk": 0, "def": 0, "spa": 244, "spd": 4, "spe": 252},
+          "nature": "Timid",
+          "moves": ["Hydro Steam", "Flamethrower", "Draco Meteor", "Dragon Pulse"]
+        },
+        {
+          "name": "",
+          "species": "Lilligant-Hisui",
+          "gender": "",
+          "item": "Life Orb",
+          "ability": "Chlorophyll",
+          "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252},
+          "nature": "Adamant",
+          "moves": ["Swords Dance", "Close Combat", "Solar Blade", "Triple Axel"]
+        },
+        {
+          "name": "",
+          "species": "Gouging Fire",
+          "gender": "",
+          "item": "Air Balloon",
+          "ability": "Protosynthesis",
+          "evs": {"hp": 24, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 228},
+          "nature": "Jolly",
+          "moves": ["Dragon Dance", "Flare Blitz", "Dragon Claw", "Morning Sun"]
+        },
+        {
+          "name": "",
+          "species": "Iron Treads",
+          "gender": "",
+          "item": "Booster Energy",
+          "ability": "Quark Drive",
+          "evs": {"hp": 136, "atk": 160, "def": 0, "spa": 0, "spd": 96, "spe": 116},
+          "nature": "Jolly",
+          "moves": ["Earthquake", "Ice Spinner", "Volt Switch", "Rapid Spin"]
+        },
+        {
+          "name": "",
+          "species": "Roaring Moon",
+          "gender": "",
+          "item": "Choice Band",
+          "ability": "Protosynthesis",
+          "evs": {"hp": 32, "atk": 220, "def": 0, "spa": 0, "spd": 4, "spe": 252},
+          "nature": "Jolly",
+          "moves": ["U-turn", "Outrage", "Iron Head", "Knock Off"]
+         }
+      ],
+      [
+        {
+          "name": "",
+          "species": "Pelipper",
+          "gender": "",
+          "item": "Damp Rock",
+          "ability": "Drizzle",
+          "evs": {"hp": 248, "atk": 0, "def": 48, "spa": 0, "spd": 212, "spe":0},
+          "nature": "Relaxed",
+          "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 0},
+          "moves": ["Surf", "U-turn", "Hurricane", "Roost"]
+        },
+        {
+          "name": "",
+          "species": "Barraskewda",
+          "gender": "",
+          "item": "Choice Band",
+          "ability": "Swift Swim",
+          "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252},
+          "nature": "Adamant",
+          "moves": ["Liquidation", "Flip Turn", "Aqua Jet", "Close Combat"]
+        },
+        {
+          "name": "",
+          "species": "Kingambit",
+          "gender": "",
+          "item": "Air Balloon",
+          "ability": "Supreme Overlord",
+          "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252},
+          "nature": "Jolly",
+          "moves": ["Swords Dance", "Sucker Punch", "Kowtow Cleave", "Tera Blast"]
+        },
+        {
+          "name": "",
+          "species": "Archaludon",
+          "gender": "",
+          "item": "Assault Vest",
+          "ability": "Stamina",
+          "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 176, "spd": 8, "spe": 72},
+          "nature": "Modest",
+          "moves": ["Draco Meteor", "Flash Cannon", "Electro Shot", "Body Press"]
+        },
+        {
+          "name": "",
+          "species": "Iron Treads",
+          "gender": "",
+          "item": "Eject Button",
+          "ability": "Quark Drive",
+          "evs": {"hp": 120, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 136},
+          "nature": "Timid",
+          "moves": ["Earth Power", "Rapid Spin", "Stealth Rock", "Volt Switch"]
+        },
+        {
+          "name": "",
+          "species": "Raging Bolt",
+          "gender": "",
+          "item": "Booster Energy",
+          "ability": "Protosynthesis",
+          "evs": {"hp": 196, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 60},
+          "nature": "Modest",
+          "moves": ["Calm Mind", "Thunderclap", "Weather Ball", "Dragon Pulse"]
+         }
+      ]
+]
