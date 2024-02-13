@@ -1,5 +1,6 @@
 from flask import Blueprint, request, jsonify
 from src.api.teambuilder.teambuilder_api import get_team
+from src.api.usage.usage_api import get_top_usage_api
 
 views = Blueprint("views", __name__)
 
@@ -18,18 +19,13 @@ def api_teambuilder():
     return get_team(archetype)
 
 
-@views.route("/usage-rate")
+@views.route("/usage-rate", methods=["GET"])
 def api_usage_rate():
-    return [
-        {
-            "name": "Pikachu",
-            "usage": 0.5,
-        },
-        {
-            "name": "Charizard",
-            "usage": 0.5,
-        },
-    ]
+    n = request.args.get("n")
+    if not n:
+        return jsonify({"error": 'Missing "n" parameter'}), 400
+
+    return get_top_usage_api(int(n))
 
 
 @views.route("/common-movesets", methods=["GET"])
