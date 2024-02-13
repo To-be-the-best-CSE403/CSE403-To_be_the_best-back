@@ -70,6 +70,9 @@ def move_selector(battleid: int):
     if not pokemon_name:
         return jsonify(
             {"error": "pokemon_name parameter is missing for move selector"}), 400
+    if not enemy_name:
+        return jsonify(
+            {"error": "enemy_name parameter is missing for move selector"}), 400
 
     return compute_effectiveness(move1type, move1power,
                                  move2type, move2power,
