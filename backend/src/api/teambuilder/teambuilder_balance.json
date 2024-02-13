@@ -1,0 +1,65 @@
+[
+  [
+    {
+      "name": "",
+      "species": "Volcarona",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Flame Body",
+      "evs": {"hp": 248, "atk": 0, "def": 24, "spa": 80, "spd": 0, "spe":156},
+      "nature": "Timid",
+      "moves": ["Quiver Dance", "Flamethrower", "Morning Sun", "Tera Blast"]
+    },
+    {
+      "name": "",
+      "species": "Clefable",
+      "gender": "",
+      "item": "Sticky Barb",
+      "ability": "Magic Guard",
+      "evs": {"hp": 248, "atk": 0, "def": 236, "spa": 0, "spd": 16, "spe": 8},
+      "nature": "Bold",
+      "moves": ["Moonblast", "Trick", "Moonlight", "Stealth Rock"]
+    },
+    {
+      "name": "",
+      "species": "Gliscor",
+      "gender": "",
+      "item": "Toxic Orb",
+      "ability": "Poison Heal",
+      "evs": {"hp": 244, "atk": 0, "def": 56, "spa": 0, "spd": 192, "spe": 16},
+      "nature": "Impish",
+      "moves": ["Earthquake", "Spikes", "Protect", "Toxic"]
+    },
+    {
+      "name": "",
+      "species": "Weavile",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Pickpocket",
+      "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 4, "spe": 252},
+      "nature": "Jolly",
+      "moves": ["Swords Dance", "Triple Axel", "Knock Off", "Ice Shard"]
+    },
+    {
+      "name": "",
+      "species": "Corviknight",
+      "gender": "",
+      "item": "Leftovers",
+      "ability": "Pressure",
+      "evs": {"hp": 240, "atk": 0, "def": 96, "spa": 0, "spd": 172, "spe": 0},
+      "nature": "Impish",
+      "moves": ["Brave Bird", "Body Press", "U-turn", "Roost"]
+    },
+    {
+        "name": "",
+        "species": "Dondozo",
+        "gender": "",
+        "item": "Heavy-Duty Boots",
+        "ability": "Unaware",
+        "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0},
+        "nature": "Impish",
+        "moves": ["Curse", "Wave Crash", "Rest", "Sleep Talk"]
+      }
+    ]
+  ]
+  
