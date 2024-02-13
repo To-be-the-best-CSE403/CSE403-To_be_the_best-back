@@ -2,7 +2,8 @@ from flask import jsonify
 # from .moves_algo import opponent_type
 from .moves_algo import most_effective
 
-TYPES = set()
+TYPES = set(["normal", "fire", "water", "grass", "electric", "flying", "dark", "psychic"
+             , "steel", "bug", "ghost", "rock", "ground", "fairy", "ice", "dragon", "fighting"])
 
 
 def get_move(opptype: str):
