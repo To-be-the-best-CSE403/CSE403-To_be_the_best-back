@@ -14,35 +14,10 @@ def api_home():
 @views.route("/teambuilder", methods=["GET"])
 def api_teambuilder():
     archetype = request.args.get("archetype")
-    
-    name = request.args.get("name")
-    info_type = request.args.get("info_type")
-    
-    if not archetype and not name and not info_type:
-        return jsonify({"error": "no parameters"}), 400
-    if not archetype and (not name or not info_type):
-        return jsonify({"error": "Archetype parameter is missing"}), 400
-    if not name and not archetype:
-        return jsonify({"error": "Name parameter is missing"}), 400
-    if not info_type and not archetype:
-        return jsonify({"error": "info_type parameter is missing"}), 400
+    if not archetype:
+        return jsonify({"error": "Teambuilder archetype parameter is missing"}), 400
 
-    if archetype:
-        return get_team(archetype)
-    return get_data_specific(name, info_type)
-
-# @views.route("/teambuilder", methods=["GET"])
-# def api_data_selector():
-#     name = request.args.get("name")
-#     info_type = request.args.get("info_type")
-#     if not name and not info_type:
-#         return jsonify({"error": "Name and info type parameters are missing for info selector"}), 400
-#     if not name:
-#         return jsonify({"error": "Name parameter is missing for info selector"}), 400
-#     if not info_type:
-#         return jsonify({"error": "Info type parameter is missing for info selector"}), 400
-
-#     return get_data_specific(name, info_type)
+    return get_team(archetype)
 
 #TODO: figure out how to properly handle the variable number url
 @views.route("/battle-gen9ou-<int:battleid>", methods=["GET"])
