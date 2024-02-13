@@ -59,8 +59,18 @@ def move_selector():
     if not enemytype1:
         return jsonify(
             {"error": "Enemey type parameter is missing for move selector"}), 400
-        
-    return compute_effectiveness()
+    
+    if not enemytype2:
+        return compute_effectiveness(move1type, move1power,
+                                     move2type, move2power,
+                                     move3type, move3power,
+                                     move4type, move4power,
+                                     enemytype1)
+    return compute_effectiveness(move1type, move1power,
+                                 move2type, move2power,
+                                 move3type, move3power,
+                                 move4type, move4power,
+                                 enemytype1, enemytype2)
 
 
 @views.route("/usage-rate")
