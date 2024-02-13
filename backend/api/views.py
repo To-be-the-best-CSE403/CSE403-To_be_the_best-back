@@ -14,28 +14,39 @@ def api_home():
 @views.route("/teambuilder", methods=["GET"])
 def api_teambuilder():
     archetype = request.args.get("archetype")
-    if not archetype:
-        return jsonify({"error": "Teambuilder archetype parameter is missing"}), 400
-
-    return get_team(archetype)
-
-#TODO: might need to merge with above
-@views.route("/teambuilder", methods=["GET"])
-def api_data_selector():
+    
     name = request.args.get("name")
     info_type = request.args.get("info_type")
-    if not name and not info_type:
-        return jsonify({"error": "Name and info type parameters are missing for info selector"}), 400
-    if not name:
-        return jsonify({"error": "Name parameter is missing for info selector"}), 400
-    if not info_type:
-        return jsonify({"error": "Info type parameter is missing for info selector"}), 400
+    
+    if not archetype and not name and not info_type:
+        return jsonify({"error": "no parameters"}), 400
+    if not archetype and (not name or not info_type):
+        return jsonify({"error": "Archetype parameter is missing"}), 400
+    if not name and not archetype:
+        return jsonify({"error": "Name parameter is missing"}), 400
+    if not info_type and not archetype:
+        return jsonify({"error": "info_type parameter is missing"}), 400
 
+    if archetype:
+        return get_team(archetype)
     return get_data_specific(name, info_type)
 
+# @views.route("/teambuilder", methods=["GET"])
+# def api_data_selector():
+#     name = request.args.get("name")
+#     info_type = request.args.get("info_type")
+#     if not name and not info_type:
+#         return jsonify({"error": "Name and info type parameters are missing for info selector"}), 400
+#     if not name:
+#         return jsonify({"error": "Name parameter is missing for info selector"}), 400
+#     if not info_type:
+#         return jsonify({"error": "Info type parameter is missing for info selector"}), 400
+
+#     return get_data_specific(name, info_type)
+
 #TODO: figure out how to properly handle the variable number url
-@views.route("/battle-gen9ou-2058129877", methods=["GET"])
-def move_selector():
+@views.route("/battle-gen9ou-<int:battleid>", methods=["GET"])
+def move_selector(battleid: int):
     move1type = request.args.get("move1type")
     move2type = request.args.get("move2type")
     move3type = request.args.get("move3type")
@@ -46,8 +57,8 @@ def move_selector():
     move3power = int(request.args.get("move3power"))
     move4power = int(request.args.get("move4power"))
     
-    enemytype1 = request.args.get(enemytype1)
-    enemytype2 = request.args.get(enemytype2)
+    pokemon_name = request.args.get("pokemon_name")
+    enemy_name = request.args.get("enemy_name")
     
     if not move1type or move2type or move3type or move4type:
         return jsonify(
