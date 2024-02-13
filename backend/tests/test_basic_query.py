@@ -1,5 +1,4 @@
 import pytest
-import pymysql
 
 
 # TODO: Update with all the actual values according to how the database is setup and get the right percentage from the website
@@ -36,7 +35,6 @@ def test_basic_query_percent():
     assert True
     return
 
-
     timeout = 10
     connection = pymysql.connect(
         charset="utf8mb4",
@@ -60,11 +58,11 @@ def test_basic_query_percent():
         connection.close()
         assert False
 
+
 def test_basic_query_partner():
     # TODO: remove later
     assert True
     return
-
 
     timeout = 10
     connection = pymysql.connect(
