@@ -70,7 +70,8 @@ def compute_effectiveness(move1type: str, move1power: int,
             jsonify({"error": "Query error for pokemon types"})
         )
     type1 = row[0].lower()
-    type2 = row[1].lower()
+    if (len(row) > 1):
+        type2 = row[1].lower()
     
     cursor.execute(query_types, (enemy_name))
     row = cursor.fetchone()
@@ -79,7 +80,8 @@ def compute_effectiveness(move1type: str, move1power: int,
             jsonify({"error": "Query error for pokemon types"})
         )
     enemy_type1 = row[0].lower()
-    enemy_type2 = row[1].lower()
+    if (len(row) > 1):
+        enemy_type2 = row[1].lower()
     
     cursor.close()
     connection.close()

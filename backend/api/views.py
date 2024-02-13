@@ -67,21 +67,15 @@ def move_selector(battleid: int):
     if not move1power or move2power or move3power or move4power:
         return jsonify(
             {"error": "A move power parameter is missing for move selector"}), 400
-    if not enemytype1:
+    if not pokemon_name:
         return jsonify(
-            {"error": "Enemey type parameter is missing for move selector"}), 400
-    
-    if not enemytype2:
-        return compute_effectiveness(move1type, move1power,
-                                     move2type, move2power,
-                                     move3type, move3power,
-                                     move4type, move4power,
-                                     enemytype1)
+            {"error": "pokemon_name parameter is missing for move selector"}), 400
+
     return compute_effectiveness(move1type, move1power,
                                  move2type, move2power,
                                  move3type, move3power,
                                  move4type, move4power,
-                                 enemytype1, enemytype2)
+                                 pokemon_name, enemy_name)
 
 
 @views.route("/usage-rate")
