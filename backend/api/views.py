@@ -25,7 +25,17 @@ def api_usage_rate():
     if not n:
         return jsonify({"error": 'Missing "n" parameter'}), 400
 
-    return get_top_usage_api(int(n))
+    # return get_top_usage_api(int(n))
+    return [
+        {
+            "name": "Pikachu",
+            "usage": 0.5,
+        },
+        {
+            "name": "Charizard",
+            "usage": 0.5,
+        },
+    ]
 
 
 @views.route("/common-movesets", methods=["GET"])
