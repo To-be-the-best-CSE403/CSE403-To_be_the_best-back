@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import mysql.connector as mysql
 import json
 import re
-
+import ast
 
  
 def create_db_connection():
@@ -23,9 +23,9 @@ def create_db_connection():
     return connection
 
 def get_usage_file(date):
-    url = "https://www.smogon.com/stats/"+date+"/gen9ou-1500.txt"
+    url = "https://www.smogon.com/stats/{date}/gen9ou-1500.txt"
     
-    local_filename = "usage_rate.txt"
+    local_filename = r"CSE403-To_be_the_best-back\database\pokedex_rate.txt"
 
     with requests.get(url, stream=True) as r:
         r.raise_for_status()
@@ -36,7 +36,7 @@ def get_usage_file(date):
 def get_pokedex_file():
     url = "https://play.pokemonshowdown.com/data/pokedex.json"
     
-    local_filename = "pokedex.json"
+    local_filename = r"CSE403-To_be_the_best-back\database\pokedex.json"
     
     with requests.get(url, stream=True) as r:
         r.raise_for_status()
@@ -46,7 +46,7 @@ def get_pokedex_file():
                 
 def get_pokemon_data_file(date):
     url = "https://www.smogon.com/stats/"+date+"/moveset/gen9ou-1500.txt"
-    local_filename = "pokemon_data.txt"
+    local_filename = r"CSE403-To_be_the_best-back\database\pokemon_data.txt"
     
     with requests.get(url, stream=True) as r:
         r.raise_for_status()
@@ -106,7 +106,7 @@ def create_table_usage(connection):
     cursor.execute(create_table_query)
     connection.commit()
     cursor.close()
- 
+
  
 def insert_data_pokedex(connection, data):
     insert_query = '''
@@ -164,7 +164,7 @@ def populate_pokedex(connection):
             insert_data_pokedex(db_connection, data)
                 
 def populate_usage(connection):
-    with open('usage_rate.txt') as f:
+    with open('pokedex_rate.txt') as f:
         for line in f:
             if line[1] == "|":
                 line = line.split("|")
@@ -204,32 +204,120 @@ def populate_pokemons(connection):
         
         data = (name, str(moves), str(items), str(abilities), str(spreads), str(teammates))
         insert_data_pokemons(connection, data)
-                
-def get_pokemon_data(connection, index):
-    select_query = '''
-    SELECT * FROM pokedex WHERE PokemonID = %s;
-    '''
-    cursor = connection.cursor()
-    cursor.execute(select_query, index)
-    result = cursor.fetchall()
-    cursor.close()
-    return result
 
-def delete_table(connection):
-    delete_query = '''
-    DROP TABLE IF EXISTS pokemon;
+def delete_table(connection, table_name):
+    delete_query = f'''
+    DROP TABLE IF EXISTS {table_name};
     '''
     cursor = connection.cursor()
     cursor.execute(delete_query)
     connection.commit()
     cursor.close()
 
+def reset_database():
+    db_connection = create_db_connection()
 
-db_connection = create_db_connection()
+    get_pokemon_data_file("2024-01")
+    get_pokedex_file()
+    get_usage_file("2024-01")
+
+    delete_table(db_connection, "pokedex")
+    delete_table(db_connection, "pokemon")
+    delete_table(db_connection, "usage_rate")
+
+    create_table_pokedex(db_connection)
+    create_table_pokemons(db_connection)
+    create_table_usage(db_connection)
+
+    populate_pokedex(db_connection)
+    populate_usage(db_connection)
+    populate_pokemons(db_connection)
+
+    db_connection.close()
 
 
+def get_pokemon_data(connection, n = 6):
+    
+    pokemons = {}
+    
+    get_most_used_pokemon_query = '''
+        SELECT * FROM usage_rate ORDER BY usage_rate DESC LIMIT %s;
+    '''
+    cursor = connection.cursor()
+    cursor.execute(get_most_used_pokemon_query, (n,))
+    result_1 = cursor.fetchall()
+    
+    for pokemon in result_1:
+        name = pokemon[1]
+        
+        get_pokemon_data_query = '''
+            SELECT * FROM pokemon WHERE name = %s;
+        '''
+        cursor.execute(get_pokemon_data_query, (name,))
+        result_2 = cursor.fetchall()
+        
+        name, moves, items, abilities, spreads, teammates = translate_data(result_2[0])
+        
+        pokemons[name] = {"species": name, "usage_rate": float(pokemon[2]), "moves": moves, "items": items, "abilities": abilities, "spreads": spreads, "teammates": teammates}
+        
+    
+    cursor.close()
+    return pokemons
 
-db_connection.close()
+def translate_data(data):
+    
+    name = data[1]
+    moves_dict = {}
+    for move in ast.literal_eval(data[2]):
+        moves_dict[move[0]] = move[1]
+    items_dict = {}
+    for item in ast.literal_eval(data[3]):
+        items_dict[item[0]] = item[1]
+        items_dict.pop("Other", None)
+    abilities_dict = {}
+    for ability in ast.literal_eval(data[4]):
+        abilities_dict[ability[0]] = ability[1]
+        abilities_dict.pop("Other", None)
+    spreads_dict = {}
+    for spread in ast.literal_eval(data[5]):
+        s = spread[0].split(":")
+        nature = s[0]
+        evs = s[1] if len(s) > 1 else "0/0/0/0/0/0"
+        hp, atk, def_, spa, spd, spe = evs.split("/")
+        spreads_dict[nature] = (spread[1], {"hp": int(hp), "atk": int(atk), "def": int(def_), "spa": int(spa), "spd": int(spd), "spe": int(spe)})
+        spreads_dict.pop("Other", None)
+    teammates_dict = {}
+    for teammate in ast.literal_eval(data[6]):
+        teammates_dict[teammate[0]] = teammate[1]
+        spreads_dict.pop("Other", None)
+    
+    return name, moves_dict, items_dict, abilities_dict, spreads_dict, teammates_dict
+    
+def create_team(pokemons, team_name):
+    team = []
+    for pokemon in pokemons.values():
+        slot = {}
+    
+        slot["name"] = ""
+        slot["species"] = pokemon["species"]
+        slot["gender"] = ""
+        slot["item"] = max(pokemon["items"], key=pokemon["items"].get) 
+        slot["ability"] = max(pokemon["abilities"], key=pokemon["abilities"].get)
+        best_spread = max(pokemon["spreads"], key= lambda k :pokemon["spreads"][k][0])
+        slot["evs"] = pokemon["spreads"][best_spread][1]
+        slot["nature"] = best_spread
+        slot["moves"] = sorted(pokemon["moves"], key=pokemon["moves"].get, reverse=True)[:4]
+        
+        team.append(slot)
+        
+    with open(r"CSE403-To_be_the_best-back\backend\src\api\teambuilder\web_scraper_"+ team_name + ".json", "w") as f:
+        json.dump(team, f)
+    
+    return team
+
+
+pokemons = get_pokemon_data(create_db_connection())
+create_team = create_team(pokemons, "team_1")
 
 
 

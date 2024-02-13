@@ -1,0 +1,134 @@
+[
+    {
+        "name": "",
+        "species": "Great Tusk",
+        "gender": "",
+        "item": "Leftovers",
+        "ability": "Protosynthesis",
+        "evs": {
+            "hp": 252,
+            "atk": 0,
+            "def": 220,
+            "spa": 0,
+            "spd": 0,
+            "spe": 36
+        },
+        "nature": "Impish",
+        "moves": [
+            "Rapid Spin",
+            "Ice Spinner",
+            "Headlong Rush",
+            "Knock Off"
+        ]
+    },
+    {
+        "name": "",
+        "species": "Kingambit",
+        "gender": "",
+        "item": "Leftovers",
+        "ability": "Supreme Overlord",
+        "evs": {
+            "hp": 236,
+            "atk": 252,
+            "def": 0,
+            "spa": 0,
+            "spd": 0,
+            "spe": 20
+        },
+        "nature": "Adamant",
+        "moves": [
+            "Sucker Punch",
+            "Swords Dance",
+            "Kowtow Cleave",
+            "Iron Head"
+        ]
+    },
+    {
+        "name": "",
+        "species": "Gholdengo",
+        "gender": "",
+        "item": "Air Balloon",
+        "ability": "Good as Gold",
+        "evs": {
+            "hp": 252,
+            "atk": 0,
+            "def": 0,
+            "spa": 252,
+            "spd": 4,
+            "spe": 0
+        },
+        "nature": "Modest",
+        "moves": [
+            "Make It Rain",
+            "Shadow Ball",
+            "Nasty Plot",
+            "Recover"
+        ]
+    },
+    {
+        "name": "",
+        "species": "Raging Bolt",
+        "gender": "",
+        "item": "Booster Energy",
+        "ability": "Protosynthesis",
+        "evs": {
+            "hp": 196,
+            "atk": 0,
+            "def": 0,
+            "spa": 252,
+            "spd": 0,
+            "spe": 60
+        },
+        "nature": "Modest",
+        "moves": [
+            "Thunderclap",
+            "Calm Mind",
+            "Thunderbolt",
+            "Dragon Pulse"
+        ]
+    },
+    {
+        "name": "",
+        "species": "Gliscor",
+        "gender": "",
+        "item": "Toxic Orb",
+        "ability": "Poison Heal",
+        "evs": {
+            "hp": 244,
+            "atk": 0,
+            "def": 248,
+            "spa": 0,
+            "spd": 16,
+            "spe": 0
+        },
+        "nature": "Impish",
+        "moves": [
+            "Protect",
+            "Earthquake",
+            "Toxic",
+            "Spikes"
+        ]
+    },
+    {
+        "name": "",
+        "species": "Volcarona",
+        "gender": "",
+        "item": "Heavy-Duty Boots",
+        "ability": "Flame Body",
+        "evs": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "spa": 252,
+            "spd": 4,
+            "spe": 252
+        },
+        "nature": "Modest",
+        "moves": [
+            "Quiver Dance",
+            "Fiery Dance",
+            "Tera Blast",
+            "Bug Buzz"
+        ]
+    }
+]
