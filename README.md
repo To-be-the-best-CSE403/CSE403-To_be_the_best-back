@@ -27,15 +27,25 @@ The goals of the backend configuration of To Be the Best is to:
 
 The layout of the repository is as follows:
 * This README.md file
+* The `.github/workflows/` directory contains the files needed for GitHub Actions and its continuous integration features.
+* The `.vscode/` directory contains the settings for a Visual Code Studio set up.
 * The `backend/` directory which will contain the code used to handle and pass data from the database to the frontend.
 * The `database/` directory which will contain the code to scrape information from websites and handle scraped information that will be stored in the database.
 
 ## Installation
 
-* Prerequisites: Must be using Google Chrome and have access to the [Chrome Web Store](https://chromewebstore.google.com/)
-* Installation: 
-  * Step 1: Install the ToBeTheBest Extension on the [Chrome Web Store](https://chromewebstore.google.com/) (Not yet available)
-  * Step 2: Go to [Pokemon Showdown](https://play.pokemonshowdown.com/) and activate the extension
+- **Step 1**: Install `ToBeTheBest` Extension
+  - **Firefox**: [Latest Release on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tobethebest/).
+  - **Chrome**: [Latest Release on Github](https://github.com/To-be-the-best-CSE403/CSE403-To_be_the_best-front/releases/).
+    - Download `tobethebest-chrome.zip` and unzip the file.
+    - Go to `chrome://extensions/` and enable "Developer mode" in the top right corner.
+    - Click `Load unpacked` and select the unzipped folder.
+
+- **Step 2**: Go to [Pokemon Showdown](https://play.pokemonshowdown.com/) and activate the extension. 
+  - **Firefox**: Go to extension setting and choose `Always Allow on play.pokemonshowdown.com`.
+  - **Chrome**: Go to extension setting and allow the extension for `play.pokemonshowdown.com`.
+
+- **Step 3***: Hover on the `ToBeTheBest` toggle button on the right side of the screen to show the extension's sidebar. 
 
 ## Usage
 
