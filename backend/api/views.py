@@ -1,6 +1,7 @@
 from flask import Blueprint, request, jsonify
 from src.api.teambuilder.teambuilder_api import get_team
-from src.api.usage.usage_api import get_top_usage_api
+from src.data.constants import DEFAULT_DATE, DEFAULT_TIER, DEFAULT_BASELINE
+from src.data.query_json import get_top_usage
 
 views = Blueprint("views", __name__)
 
@@ -21,11 +22,22 @@ def api_teambuilder():
 
 @views.route("/usage-rate", methods=["GET"])
 def api_usage_rate():
+    """
+    API endpoint to get the top n Pokemon usage rates for a given date, tier, and baseline
+    """
     n = request.args.get("n")
     if not n:
         return jsonify({"error": 'Missing "n" parameter'}), 400
 
-    return get_top_usage_api(int(n))
+    date = request.args.get("date", DEFAULT_DATE)
+    tier = request.args.get("tier", DEFAULT_TIER)
+    baseline = request.args.get("baseline", DEFAULT_BASELINE)
+
+    try:
+        top_usage = get_top_usage(int(n), date, tier, int(baseline))
+        return jsonify(top_usage)
+    except FileNotFoundError:
+        return jsonify({"error": f"No usage found for {date}, {tier}, {baseline}"}), 404
 
 
 @views.route("/common-movesets", methods=["GET"])

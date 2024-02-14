@@ -1,0 +1,3728 @@
+[
+  {
+    "name": "Kingambit",
+    "usage_rate": 33.27107,
+    "raw_count": 971907,
+    "real_count": 622560
+  },
+  {
+    "name": "GreatTusk",
+    "usage_rate": 33.14913,
+    "raw_count": 1020773,
+    "real_count": 767908
+  },
+  {
+    "name": "Gholdengo",
+    "usage_rate": 26.91092,
+    "raw_count": 811549,
+    "real_count": 597056
+  },
+  {
+    "name": "IronValiant",
+    "usage_rate": 24.35337,
+    "raw_count": 699333,
+    "real_count": 480831
+  },
+  {
+    "name": "IronMoth",
+    "usage_rate": 22.40171,
+    "raw_count": 652909,
+    "real_count": 485817
+  },
+  {
+    "name": "Gliscor",
+    "usage_rate": 19.94836,
+    "raw_count": 711819,
+    "real_count": 596567
+  },
+  {
+    "name": "Dragapult",
+    "usage_rate": 18.04337,
+    "raw_count": 592354,
+    "real_count": 447485
+  },
+  {
+    "name": "Ogerpon-Wellspring",
+    "usage_rate": 17.99431,
+    "raw_count": 529514,
+    "real_count": 407887
+  },
+  {
+    "name": "Cinderace",
+    "usage_rate": 16.20909,
+    "raw_count": 512748,
+    "real_count": 397316
+  },
+  {
+    "name": "RoaringMoon",
+    "usage_rate": 15.90854,
+    "raw_count": 455859,
+    "real_count": 332782
+  },
+  {
+    "name": "Glimmora",
+    "usage_rate": 11.58287,
+    "raw_count": 365283,
+    "real_count": 330656
+  },
+  {
+    "name": "Dragonite",
+    "usage_rate": 11.23915,
+    "raw_count": 359121,
+    "real_count": 265465
+  },
+  {
+    "name": "Rillaboom",
+    "usage_rate": 11.03544,
+    "raw_count": 330350,
+    "real_count": 269204
+  },
+  {
+    "name": "Corviknight",
+    "usage_rate": 10.76356,
+    "raw_count": 380536,
+    "real_count": 308227
+  },
+  {
+    "name": "Zapdos",
+    "usage_rate": 10.56876,
+    "raw_count": 347073,
+    "real_count": 284786
+  },
+  {
+    "name": "Ribombee",
+    "usage_rate": 10.46583,
+    "raw_count": 360740,
+    "real_count": 331085
+  },
+  {
+    "name": "WalkingWake",
+    "usage_rate": 10.4252,
+    "raw_count": 337079,
+    "real_count": 262897
+  },
+  {
+    "name": "Sneasler",
+    "usage_rate": 10.17656,
+    "raw_count": 321031,
+    "real_count": 243002
+  },
+  {
+    "name": "Slowking-Galar",
+    "usage_rate": 9.67727,
+    "raw_count": 291993,
+    "real_count": 240326
+  },
+  {
+    "name": "Zamazenta",
+    "usage_rate": 9.45011,
+    "raw_count": 250991,
+    "real_count": 181247
+  },
+  {
+    "name": "Enamorus",
+    "usage_rate": 9.14947,
+    "raw_count": 271464,
+    "real_count": 206649
+  },
+  {
+    "name": "Samurott-Hisui",
+    "usage_rate": 8.87073,
+    "raw_count": 292022,
+    "real_count": 251775
+  },
+  {
+    "name": "Manaphy",
+    "usage_rate": 8.47942,
+    "raw_count": 259531,
+    "real_count": 195630
+  },
+  {
+    "name": "Ninetales-Alola",
+    "usage_rate": 8.4284,
+    "raw_count": 297011,
+    "real_count": 254758
+  },
+  {
+    "name": "Hatterene",
+    "usage_rate": 8.28486,
+    "raw_count": 264794,
+    "real_count": 200882
+  },
+  {
+    "name": "Clefable",
+    "usage_rate": 8.17342,
+    "raw_count": 256641,
+    "real_count": 199447
+  },
+  {
+    "name": "Greninja",
+    "usage_rate": 7.72777,
+    "raw_count": 274630,
+    "real_count": 211472
+  },
+  {
+    "name": "Empoleon",
+    "usage_rate": 5.90903,
+    "raw_count": 227773,
+    "real_count": 185986
+  },
+  {
+    "name": "Torkoal",
+    "usage_rate": 5.85572,
+    "raw_count": 212489,
+    "real_count": 193411
+  },
+  {
+    "name": "Ogerpon-Cornerstone",
+    "usage_rate": 5.67366,
+    "raw_count": 170620,
+    "real_count": 136295
+  },
+  {
+    "name": "Ceruledge",
+    "usage_rate": 5.58955,
+    "raw_count": 187571,
+    "real_count": 144217
+  },
+  {
+    "name": "IronTreads",
+    "usage_rate": 5.34847,
+    "raw_count": 156274,
+    "real_count": 135958
+  },
+  {
+    "name": "Dondozo",
+    "usage_rate": 5.34673,
+    "raw_count": 174765,
+    "real_count": 131323
+  },
+  {
+    "name": "Ursaluna-Bloodmoon",
+    "usage_rate": 5.28386,
+    "raw_count": 156281,
+    "real_count": 114765
+  },
+  {
+    "name": "Landorus-Therian",
+    "usage_rate": 5.2628,
+    "raw_count": 194073,
+    "real_count": 164071
+  },
+  {
+    "name": "Heatran",
+    "usage_rate": 4.88448,
+    "raw_count": 153800,
+    "real_count": 128068
+  },
+  {
+    "name": "Garganacl",
+    "usage_rate": 4.798,
+    "raw_count": 175545,
+    "real_count": 136545
+  },
+  {
+    "name": "Toxapex",
+    "usage_rate": 4.61286,
+    "raw_count": 185602,
+    "real_count": 149071
+  },
+  {
+    "name": "Ting-Lu",
+    "usage_rate": 4.47825,
+    "raw_count": 139265,
+    "real_count": 116685
+  },
+  {
+    "name": "Garchomp",
+    "usage_rate": 4.4596,
+    "raw_count": 170356,
+    "real_count": 134584
+  },
+  {
+    "name": "Alomomola",
+    "usage_rate": 4.08812,
+    "raw_count": 131422,
+    "real_count": 106366
+  },
+  {
+    "name": "Blissey",
+    "usage_rate": 3.86519,
+    "raw_count": 144971,
+    "real_count": 108689
+  },
+  {
+    "name": "Amoonguss",
+    "usage_rate": 3.59046,
+    "raw_count": 123846,
+    "real_count": 99586
+  },
+  {
+    "name": "Pelipper",
+    "usage_rate": 3.58419,
+    "raw_count": 134928,
+    "real_count": 123878
+  },
+  {
+    "name": "Clodsire",
+    "usage_rate": 3.56055,
+    "raw_count": 127373,
+    "real_count": 102331
+  },
+  {
+    "name": "Meowscarada",
+    "usage_rate": 3.49073,
+    "raw_count": 134485,
+    "real_count": 107465
+  },
+  {
+    "name": "Kommo-o",
+    "usage_rate": 3.33325,
+    "raw_count": 124207,
+    "real_count": 87922
+  },
+  {
+    "name": "Thundurus-Therian",
+    "usage_rate": 3.13042,
+    "raw_count": 104728,
+    "real_count": 85856
+  },
+  {
+    "name": "Skeledirge",
+    "usage_rate": 3.07772,
+    "raw_count": 111269,
+    "real_count": 85412
+  },
+  {
+    "name": "Rotom-Wash",
+    "usage_rate": 2.94843,
+    "raw_count": 112047,
+    "real_count": 96844
+  },
+  {
+    "name": "Scizor",
+    "usage_rate": 2.91455,
+    "raw_count": 111589,
+    "real_count": 90428
+  },
+  {
+    "name": "Maushold",
+    "usage_rate": 2.46246,
+    "raw_count": 84427,
+    "real_count": 64572
+  },
+  {
+    "name": "Torterra",
+    "usage_rate": 2.22107,
+    "raw_count": 104186,
+    "real_count": 74230
+  },
+  {
+    "name": "Hoopa-Unbound",
+    "usage_rate": 2.20552,
+    "raw_count": 67242,
+    "real_count": 50742
+  },
+  {
+    "name": "Moltres",
+    "usage_rate": 2.14346,
+    "raw_count": 64855,
+    "real_count": 53731
+  },
+  {
+    "name": "Tornadus-Therian",
+    "usage_rate": 2.1253,
+    "raw_count": 59363,
+    "real_count": 47008
+  },
+  {
+    "name": "Weavile",
+    "usage_rate": 2.11609,
+    "raw_count": 72722,
+    "real_count": 56450
+  },
+  {
+    "name": "Azumarill",
+    "usage_rate": 2.1098,
+    "raw_count": 76073,
+    "real_count": 60255
+  },
+  {
+    "name": "Mandibuzz",
+    "usage_rate": 2.07002,
+    "raw_count": 71241,
+    "real_count": 55795
+  },
+  {
+    "name": "Cresselia",
+    "usage_rate": 2.06814,
+    "raw_count": 67332,
+    "real_count": 49679
+  },
+  {
+    "name": "Tyranitar",
+    "usage_rate": 2.0167,
+    "raw_count": 76034,
+    "real_count": 62549
+  },
+  {
+    "name": "SandyShocks",
+    "usage_rate": 2.00459,
+    "raw_count": 63352,
+    "real_count": 52019
+  },
+  {
+    "name": "Weezing-Galar",
+    "usage_rate": 1.94333,
+    "raw_count": 65952,
+    "real_count": 54658
+  },
+  {
+    "name": "Breloom",
+    "usage_rate": 1.84934,
+    "raw_count": 74445,
+    "real_count": 56655
+  },
+  {
+    "name": "IronHands",
+    "usage_rate": 1.81778,
+    "raw_count": 61481,
+    "real_count": 46886
+  },
+  {
+    "name": "Goodra-Hisui",
+    "usage_rate": 1.749,
+    "raw_count": 75919,
+    "real_count": 61183
+  },
+  {
+    "name": "Ursaluna",
+    "usage_rate": 1.71785,
+    "raw_count": 60391,
+    "real_count": 47029
+  },
+  {
+    "name": "Ogerpon",
+    "usage_rate": 1.6981,
+    "raw_count": 59241,
+    "real_count": 43851
+  },
+  {
+    "name": "Crawdaunt",
+    "usage_rate": 1.66033,
+    "raw_count": 63961,
+    "real_count": 49603
+  },
+  {
+    "name": "Quaquaval",
+    "usage_rate": 1.62099,
+    "raw_count": 69776,
+    "real_count": 54119
+  },
+  {
+    "name": "Sinistcha",
+    "usage_rate": 1.38489,
+    "raw_count": 58271,
+    "real_count": 43482
+  },
+  {
+    "name": "Mamoswine",
+    "usage_rate": 1.34655,
+    "raw_count": 55302,
+    "real_count": 44139
+  },
+  {
+    "name": "Armarouge",
+    "usage_rate": 1.30364,
+    "raw_count": 40891,
+    "real_count": 30601
+  },
+  {
+    "name": "Barraskewda",
+    "usage_rate": 1.29601,
+    "raw_count": 42828,
+    "real_count": 34173
+  },
+  {
+    "name": "Arcanine-Hisui",
+    "usage_rate": 1.2668,
+    "raw_count": 61934,
+    "real_count": 47171
+  },
+  {
+    "name": "Lilligant-Hisui",
+    "usage_rate": 1.25938,
+    "raw_count": 52064,
+    "real_count": 38569
+  },
+  {
+    "name": "Munkidori",
+    "usage_rate": 1.24838,
+    "raw_count": 48316,
+    "real_count": 37526
+  },
+  {
+    "name": "Volcanion",
+    "usage_rate": 1.2045,
+    "raw_count": 39884,
+    "real_count": 32424
+  },
+  {
+    "name": "Infernape",
+    "usage_rate": 1.1657,
+    "raw_count": 65682,
+    "real_count": 47864
+  },
+  {
+    "name": "Ditto",
+    "usage_rate": 1.15489,
+    "raw_count": 42902,
+    "real_count": 31181
+  },
+  {
+    "name": "Grimmsnarl",
+    "usage_rate": 1.14593,
+    "raw_count": 51275,
+    "real_count": 44175
+  },
+  {
+    "name": "Chandelure",
+    "usage_rate": 1.1337,
+    "raw_count": 61521,
+    "real_count": 45363
+  },
+  {
+    "name": "Zoroark-Hisui",
+    "usage_rate": 1.10306,
+    "raw_count": 61468,
+    "real_count": 24778
+  },
+  {
+    "name": "Milotic",
+    "usage_rate": 1.03498,
+    "raw_count": 48006,
+    "real_count": 38359
+  },
+  {
+    "name": "Basculegion",
+    "usage_rate": 0.99866,
+    "raw_count": 33654,
+    "real_count": 26171
+  },
+  {
+    "name": "Jirachi",
+    "usage_rate": 0.98253,
+    "raw_count": 41591,
+    "real_count": 32246
+  },
+  {
+    "name": "Polteageist",
+    "usage_rate": 0.97122,
+    "raw_count": 33624,
+    "real_count": 24183
+  },
+  {
+    "name": "Conkeldurr",
+    "usage_rate": 0.94463,
+    "raw_count": 42826,
+    "real_count": 33287
+  },
+  {
+    "name": "Haxorus",
+    "usage_rate": 0.93867,
+    "raw_count": 39142,
+    "real_count": 27363
+  },
+  {
+    "name": "Okidogi",
+    "usage_rate": 0.89593,
+    "raw_count": 35791,
+    "real_count": 27633
+  },
+  {
+    "name": "Hydreigon",
+    "usage_rate": 0.84651,
+    "raw_count": 33675,
+    "real_count": 25592
+  },
+  {
+    "name": "Indeedee",
+    "usage_rate": 0.8078,
+    "raw_count": 21789,
+    "real_count": 19420
+  },
+  {
+    "name": "Kleavor",
+    "usage_rate": 0.80179,
+    "raw_count": 37103,
+    "real_count": 31924
+  },
+  {
+    "name": "Slowking",
+    "usage_rate": 0.74443,
+    "raw_count": 28112,
+    "real_count": 22546
+  },
+  {
+    "name": "Gengar",
+    "usage_rate": 0.73717,
+    "raw_count": 43656,
+    "real_count": 33100
+  },
+  {
+    "name": "ScreamTail",
+    "usage_rate": 0.73292,
+    "raw_count": 25280,
+    "real_count": 19864
+  },
+  {
+    "name": "Magnezone",
+    "usage_rate": 0.72879,
+    "raw_count": 31424,
+    "real_count": 24315
+  },
+  {
+    "name": "Fezandipiti",
+    "usage_rate": 0.72799,
+    "raw_count": 33053,
+    "real_count": 26012
+  },
+  {
+    "name": "Shiftry",
+    "usage_rate": 0.71472,
+    "raw_count": 33784,
+    "real_count": 28205
+  },
+  {
+    "name": "Hawlucha",
+    "usage_rate": 0.70434,
+    "raw_count": 25888,
+    "real_count": 18982
+  },
+  {
+    "name": "Basculegion-F",
+    "usage_rate": 0.68212,
+    "raw_count": 27215,
+    "real_count": 21241
+  },
+  {
+    "name": "Ninetales",
+    "usage_rate": 0.66925,
+    "raw_count": 32989,
+    "real_count": 28130
+  },
+  {
+    "name": "Talonflame",
+    "usage_rate": 0.64586,
+    "raw_count": 31153,
+    "real_count": 24236
+  },
+  {
+    "name": "Lokix",
+    "usage_rate": 0.61376,
+    "raw_count": 27840,
+    "real_count": 21525
+  },
+  {
+    "name": "Gyarados",
+    "usage_rate": 0.61093,
+    "raw_count": 33935,
+    "real_count": 26619
+  },
+  {
+    "name": "Toedscruel",
+    "usage_rate": 0.59969,
+    "raw_count": 22841,
+    "real_count": 19272
+  },
+  {
+    "name": "Azelf",
+    "usage_rate": 0.57195,
+    "raw_count": 20138,
+    "real_count": 18109
+  },
+  {
+    "name": "Enamorus-Therian",
+    "usage_rate": 0.56004,
+    "raw_count": 19355,
+    "real_count": 14843
+  },
+  {
+    "name": "BruteBonnet",
+    "usage_rate": 0.52845,
+    "raw_count": 16743,
+    "real_count": 13157
+  },
+  {
+    "name": "Espeon",
+    "usage_rate": 0.51498,
+    "raw_count": 31602,
+    "real_count": 24538
+  },
+  {
+    "name": "Cloyster",
+    "usage_rate": 0.50385,
+    "raw_count": 28913,
+    "real_count": 22277
+  },
+  {
+    "name": "Salamence",
+    "usage_rate": 0.48425,
+    "raw_count": 28265,
+    "real_count": 21019
+  },
+  {
+    "name": "Chesnaught",
+    "usage_rate": 0.48242,
+    "raw_count": 17366,
+    "real_count": 13669
+  },
+  {
+    "name": "Brambleghast",
+    "usage_rate": 0.4662,
+    "raw_count": 19865,
+    "real_count": 14795
+  },
+  {
+    "name": "Yanmega",
+    "usage_rate": 0.4581,
+    "raw_count": 21753,
+    "real_count": 16739
+  },
+  {
+    "name": "Cyclizar",
+    "usage_rate": 0.4572,
+    "raw_count": 21096,
+    "real_count": 15913
+  },
+  {
+    "name": "Mimikyu",
+    "usage_rate": 0.44552,
+    "raw_count": 25613,
+    "real_count": 19241
+  },
+  {
+    "name": "Typhlosion-Hisui",
+    "usage_rate": 0.43744,
+    "raw_count": 20787,
+    "real_count": 15145
+  },
+  {
+    "name": "Zapdos-Galar",
+    "usage_rate": 0.43432,
+    "raw_count": 16845,
+    "real_count": 13283
+  },
+  {
+    "name": "Mew",
+    "usage_rate": 0.43198,
+    "raw_count": 20994,
+    "real_count": 16871
+  },
+  {
+    "name": "Gastrodon",
+    "usage_rate": 0.40254,
+    "raw_count": 24449,
+    "real_count": 19288
+  },
+  {
+    "name": "Tinkaton",
+    "usage_rate": 0.39245,
+    "raw_count": 20498,
+    "real_count": 16357
+  },
+  {
+    "name": "Muk-Alola",
+    "usage_rate": 0.38099,
+    "raw_count": 18252,
+    "real_count": 14944
+  },
+  {
+    "name": "IronJugulis",
+    "usage_rate": 0.3554,
+    "raw_count": 12338,
+    "real_count": 9592
+  },
+  {
+    "name": "SlitherWing",
+    "usage_rate": 0.35237,
+    "raw_count": 15107,
+    "real_count": 11374
+  },
+  {
+    "name": "Politoed",
+    "usage_rate": 0.34232,
+    "raw_count": 19101,
+    "real_count": 16888
+  },
+  {
+    "name": "Charizard",
+    "usage_rate": 0.33927,
+    "raw_count": 20500,
+    "real_count": 15476
+  },
+  {
+    "name": "Frosmoth",
+    "usage_rate": 0.33553,
+    "raw_count": 14664,
+    "real_count": 10483
+  },
+  {
+    "name": "Umbreon",
+    "usage_rate": 0.33456,
+    "raw_count": 20067,
+    "real_count": 14887
+  },
+  {
+    "name": "Slowbro-Galar",
+    "usage_rate": 0.33316,
+    "raw_count": 13153,
+    "real_count": 10012
+  },
+  {
+    "name": "Jolteon",
+    "usage_rate": 0.32741,
+    "raw_count": 20028,
+    "real_count": 15465
+  },
+  {
+    "name": "Moltres-Galar",
+    "usage_rate": 0.32728,
+    "raw_count": 13434,
+    "real_count": 9991
+  },
+  {
+    "name": "Regidrago",
+    "usage_rate": 0.32472,
+    "raw_count": 14342,
+    "real_count": 10775
+  },
+  {
+    "name": "Pawmot",
+    "usage_rate": 0.3209,
+    "raw_count": 19275,
+    "real_count": 13630
+  },
+  {
+    "name": "Thundurus",
+    "usage_rate": 0.32071,
+    "raw_count": 12546,
+    "real_count": 10256
+  },
+  {
+    "name": "Forretress",
+    "usage_rate": 0.31745,
+    "raw_count": 21876,
+    "real_count": 18665
+  },
+  {
+    "name": "Floatzel",
+    "usage_rate": 0.31411,
+    "raw_count": 14993,
+    "real_count": 11414
+  },
+  {
+    "name": "Vikavolt",
+    "usage_rate": 0.30949,
+    "raw_count": 19415,
+    "real_count": 16333
+  },
+  {
+    "name": "Kilowattrel",
+    "usage_rate": 0.30243,
+    "raw_count": 16932,
+    "real_count": 13394
+  },
+  {
+    "name": "Staraptor",
+    "usage_rate": 0.29867,
+    "raw_count": 14625,
+    "real_count": 11818
+  },
+  {
+    "name": "Dipplin",
+    "usage_rate": 0.28636,
+    "raw_count": 17562,
+    "real_count": 13102
+  },
+  {
+    "name": "Ambipom",
+    "usage_rate": 0.28105,
+    "raw_count": 24524,
+    "real_count": 19946
+  },
+  {
+    "name": "Snorlax",
+    "usage_rate": 0.27298,
+    "raw_count": 20186,
+    "real_count": 15261
+  },
+  {
+    "name": "Gardevoir",
+    "usage_rate": 0.26251,
+    "raw_count": 17136,
+    "real_count": 12726
+  },
+  {
+    "name": "Donphan",
+    "usage_rate": 0.25967,
+    "raw_count": 14492,
+    "real_count": 11310
+  },
+  {
+    "name": "Cetitan",
+    "usage_rate": 0.25589,
+    "raw_count": 12634,
+    "real_count": 9333
+  },
+  {
+    "name": "Goodra",
+    "usage_rate": 0.25544,
+    "raw_count": 14348,
+    "real_count": 10922
+  },
+  {
+    "name": "Salazzle",
+    "usage_rate": 0.25232,
+    "raw_count": 14992,
+    "real_count": 11689
+  },
+  {
+    "name": "Klefki",
+    "usage_rate": 0.25173,
+    "raw_count": 13492,
+    "real_count": 11486
+  },
+  {
+    "name": "Gallade",
+    "usage_rate": 0.24228,
+    "raw_count": 13889,
+    "real_count": 10029
+  },
+  {
+    "name": "Quagsire",
+    "usage_rate": 0.23964,
+    "raw_count": 16593,
+    "real_count": 12779
+  },
+  {
+    "name": "Slowbro",
+    "usage_rate": 0.23451,
+    "raw_count": 10579,
+    "real_count": 8452
+  },
+  {
+    "name": "Braviary-Hisui",
+    "usage_rate": 0.23174,
+    "raw_count": 13250,
+    "real_count": 10017
+  },
+  {
+    "name": "Tauros-Paldea-Blaze",
+    "usage_rate": 0.21951,
+    "raw_count": 8754,
+    "real_count": 6895
+  },
+  {
+    "name": "Mienshao",
+    "usage_rate": 0.21698,
+    "raw_count": 13720,
+    "real_count": 10358
+  },
+  {
+    "name": "Electrode-Hisui",
+    "usage_rate": 0.20983,
+    "raw_count": 13434,
+    "real_count": 11033
+  },
+  {
+    "name": "Sandslash-Alola",
+    "usage_rate": 0.20872,
+    "raw_count": 14381,
+    "real_count": 10770
+  },
+  {
+    "name": "Overqwil",
+    "usage_rate": 0.20871,
+    "raw_count": 12019,
+    "real_count": 9580
+  },
+  {
+    "name": "Houndstone",
+    "usage_rate": 0.20809,
+    "raw_count": 8831,
+    "real_count": 6667
+  },
+  {
+    "name": "Pincurchin",
+    "usage_rate": 0.2073,
+    "raw_count": 11136,
+    "real_count": 9976
+  },
+  {
+    "name": "Toxtricity",
+    "usage_rate": 0.20539,
+    "raw_count": 12002,
+    "real_count": 9041
+  },
+  {
+    "name": "Hippowdon",
+    "usage_rate": 0.20414,
+    "raw_count": 11070,
+    "real_count": 9296
+  },
+  {
+    "name": "Decidueye-Hisui",
+    "usage_rate": 0.2031,
+    "raw_count": 12028,
+    "real_count": 9056
+  },
+  {
+    "name": "Wo-Chien",
+    "usage_rate": 0.20289,
+    "raw_count": 10865,
+    "real_count": 8465
+  },
+  {
+    "name": "Sylveon",
+    "usage_rate": 0.19827,
+    "raw_count": 13876,
+    "real_count": 10012
+  },
+  {
+    "name": "Vaporeon",
+    "usage_rate": 0.19452,
+    "raw_count": 12684,
+    "real_count": 9852
+  },
+  {
+    "name": "Grafaiai",
+    "usage_rate": 0.1866,
+    "raw_count": 12843,
+    "real_count": 10438
+  },
+  {
+    "name": "Glastrier",
+    "usage_rate": 0.18478,
+    "raw_count": 6892,
+    "real_count": 5203
+  },
+  {
+    "name": "Chansey",
+    "usage_rate": 0.18327,
+    "raw_count": 10558,
+    "real_count": 7715
+  },
+  {
+    "name": "Drifblim",
+    "usage_rate": 0.1772,
+    "raw_count": 9617,
+    "real_count": 7311
+  },
+  {
+    "name": "Lucario",
+    "usage_rate": 0.17457,
+    "raw_count": 15592,
+    "real_count": 11467
+  },
+  {
+    "name": "Noivern",
+    "usage_rate": 0.17187,
+    "raw_count": 11559,
+    "real_count": 8900
+  },
+  {
+    "name": "Arboliva",
+    "usage_rate": 0.16954,
+    "raw_count": 11735,
+    "real_count": 8490
+  },
+  {
+    "name": "Lycanroc-Dusk",
+    "usage_rate": 0.1624,
+    "raw_count": 9910,
+    "real_count": 7603
+  },
+  {
+    "name": "Rotom-Heat",
+    "usage_rate": 0.16205,
+    "raw_count": 10084,
+    "real_count": 8237
+  },
+  {
+    "name": "Masquerain",
+    "usage_rate": 0.16104,
+    "raw_count": 9843,
+    "real_count": 8764
+  },
+  {
+    "name": "Avalugg",
+    "usage_rate": 0.15549,
+    "raw_count": 8419,
+    "real_count": 6197
+  },
+  {
+    "name": "Tsareena",
+    "usage_rate": 0.15409,
+    "raw_count": 8783,
+    "real_count": 6591
+  },
+  {
+    "name": "Sableye",
+    "usage_rate": 0.14906,
+    "raw_count": 10782,
+    "real_count": 8632
+  },
+  {
+    "name": "Diancie",
+    "usage_rate": 0.14755,
+    "raw_count": 8093,
+    "real_count": 6079
+  },
+  {
+    "name": "IronLeaves",
+    "usage_rate": 0.14547,
+    "raw_count": 7193,
+    "real_count": 5139
+  },
+  {
+    "name": "Cramorant",
+    "usage_rate": 0.13792,
+    "raw_count": 10500,
+    "real_count": 8780
+  },
+  {
+    "name": "Krookodile",
+    "usage_rate": 0.13769,
+    "raw_count": 10005,
+    "real_count": 7682
+  },
+  {
+    "name": "Inteleon",
+    "usage_rate": 0.13507,
+    "raw_count": 11229,
+    "real_count": 8462
+  },
+  {
+    "name": "Arcanine",
+    "usage_rate": 0.13497,
+    "raw_count": 10146,
+    "real_count": 7667
+  },
+  {
+    "name": "Bellibolt",
+    "usage_rate": 0.13335,
+    "raw_count": 7702,
+    "real_count": 5881
+  },
+  {
+    "name": "IronThorns",
+    "usage_rate": 0.13257,
+    "raw_count": 6951,
+    "real_count": 5133
+  },
+  {
+    "name": "Victreebel",
+    "usage_rate": 0.1265,
+    "raw_count": 7146,
+    "real_count": 5286
+  },
+  {
+    "name": "Zarude",
+    "usage_rate": 0.12632,
+    "raw_count": 4835,
+    "real_count": 3768
+  },
+  {
+    "name": "Abomasnow",
+    "usage_rate": 0.11693,
+    "raw_count": 6772,
+    "real_count": 5627
+  },
+  {
+    "name": "Revavroom",
+    "usage_rate": 0.11565,
+    "raw_count": 6651,
+    "real_count": 5022
+  },
+  {
+    "name": "Golem-Alola",
+    "usage_rate": 0.11375,
+    "raw_count": 8077,
+    "real_count": 6458
+  },
+  {
+    "name": "Ludicolo",
+    "usage_rate": 0.11243,
+    "raw_count": 9217,
+    "real_count": 6907
+  },
+  {
+    "name": "Bisharp",
+    "usage_rate": 0.11109,
+    "raw_count": 7471,
+    "real_count": 5632
+  },
+  {
+    "name": "Bronzong",
+    "usage_rate": 0.10961,
+    "raw_count": 5241,
+    "real_count": 4323
+  },
+  {
+    "name": "Lilligant",
+    "usage_rate": 0.10821,
+    "raw_count": 5672,
+    "real_count": 4268
+  },
+  {
+    "name": "Meloetta",
+    "usage_rate": 0.10784,
+    "raw_count": 5148,
+    "real_count": 3862
+  },
+  {
+    "name": "Shaymin",
+    "usage_rate": 0.10715,
+    "raw_count": 4574,
+    "real_count": 3492
+  },
+  {
+    "name": "Indeedee-F",
+    "usage_rate": 0.10392,
+    "raw_count": 4625,
+    "real_count": 3926
+  },
+  {
+    "name": "Scovillain",
+    "usage_rate": 0.10258,
+    "raw_count": 6063,
+    "real_count": 4298
+  },
+  {
+    "name": "Poliwrath",
+    "usage_rate": 0.09955,
+    "raw_count": 7706,
+    "real_count": 5709
+  },
+  {
+    "name": "Articuno-Galar",
+    "usage_rate": 0.09818,
+    "raw_count": 5676,
+    "real_count": 4207
+  },
+  {
+    "name": "Spidops",
+    "usage_rate": 0.09613,
+    "raw_count": 7204,
+    "real_count": 6502
+  },
+  {
+    "name": "Delphox",
+    "usage_rate": 0.09413,
+    "raw_count": 6768,
+    "real_count": 4945
+  },
+  {
+    "name": "Tatsugiri",
+    "usage_rate": 0.09367,
+    "raw_count": 5835,
+    "real_count": 4357
+  },
+  {
+    "name": "Altaria",
+    "usage_rate": 0.09228,
+    "raw_count": 5662,
+    "real_count": 4384
+  },
+  {
+    "name": "Heracross",
+    "usage_rate": 0.09195,
+    "raw_count": 7574,
+    "real_count": 5468
+  },
+  {
+    "name": "Leavanny",
+    "usage_rate": 0.09125,
+    "raw_count": 7295,
+    "real_count": 6001
+  },
+  {
+    "name": "Cryogonal",
+    "usage_rate": 0.09087,
+    "raw_count": 7341,
+    "real_count": 5610
+  },
+  {
+    "name": "Rabsca",
+    "usage_rate": 0.09037,
+    "raw_count": 4454,
+    "real_count": 2981
+  },
+  {
+    "name": "Florges",
+    "usage_rate": 0.08972,
+    "raw_count": 5976,
+    "real_count": 4285
+  },
+  {
+    "name": "Lycanroc",
+    "usage_rate": 0.08865,
+    "raw_count": 5152,
+    "real_count": 3745
+  },
+  {
+    "name": "Tauros-Paldea-Aqua",
+    "usage_rate": 0.08738,
+    "raw_count": 5685,
+    "real_count": 4402
+  },
+  {
+    "name": "Medicham",
+    "usage_rate": 0.08618,
+    "raw_count": 4123,
+    "real_count": 2897
+  },
+  {
+    "name": "Leafeon",
+    "usage_rate": 0.08501,
+    "raw_count": 6241,
+    "real_count": 4574
+  },
+  {
+    "name": "Typhlosion",
+    "usage_rate": 0.08449,
+    "raw_count": 5924,
+    "real_count": 4280
+  },
+  {
+    "name": "Flamigo",
+    "usage_rate": 0.0799,
+    "raw_count": 3339,
+    "real_count": 2519
+  },
+  {
+    "name": "Tornadus",
+    "usage_rate": 0.07885,
+    "raw_count": 4201,
+    "real_count": 3329
+  },
+  {
+    "name": "Dusclops",
+    "usage_rate": 0.07884,
+    "raw_count": 6516,
+    "real_count": 5170
+  },
+  {
+    "name": "Dusknoir",
+    "usage_rate": 0.0787,
+    "raw_count": 7031,
+    "real_count": 5507
+  },
+  {
+    "name": "Golem",
+    "usage_rate": 0.07788,
+    "raw_count": 5682,
+    "real_count": 4853
+  },
+  {
+    "name": "Coalossal",
+    "usage_rate": 0.0759,
+    "raw_count": 3331,
+    "real_count": 2751
+  },
+  {
+    "name": "Avalugg-Hisui",
+    "usage_rate": 0.07368,
+    "raw_count": 4462,
+    "real_count": 3463
+  },
+  {
+    "name": "Glaceon",
+    "usage_rate": 0.07311,
+    "raw_count": 4487,
+    "real_count": 3301
+  },
+  {
+    "name": "Froslass",
+    "usage_rate": 0.07145,
+    "raw_count": 6626,
+    "real_count": 5321
+  },
+  {
+    "name": "Uxie",
+    "usage_rate": 0.07051,
+    "raw_count": 3848,
+    "real_count": 3306
+  },
+  {
+    "name": "Trevenant",
+    "usage_rate": 0.0704,
+    "raw_count": 7345,
+    "real_count": 5395
+  },
+  {
+    "name": "Morpeko",
+    "usage_rate": 0.07026,
+    "raw_count": 6094,
+    "real_count": 4640
+  },
+  {
+    "name": "Orthworm",
+    "usage_rate": 0.06875,
+    "raw_count": 5748,
+    "real_count": 4420
+  },
+  {
+    "name": "Toxicroak",
+    "usage_rate": 0.06871,
+    "raw_count": 4884,
+    "real_count": 3641
+  },
+  {
+    "name": "Spiritomb",
+    "usage_rate": 0.06598,
+    "raw_count": 4283,
+    "real_count": 3391
+  },
+  {
+    "name": "Hariyama",
+    "usage_rate": 0.06546,
+    "raw_count": 3497,
+    "real_count": 2841
+  },
+  {
+    "name": "Vivillon",
+    "usage_rate": 0.06458,
+    "raw_count": 5237,
+    "real_count": 3904
+  },
+  {
+    "name": "Drednaw",
+    "usage_rate": 0.06386,
+    "raw_count": 4841,
+    "real_count": 3447
+  },
+  {
+    "name": "Dragalge",
+    "usage_rate": 0.0637,
+    "raw_count": 5131,
+    "real_count": 4028
+  },
+  {
+    "name": "Farigiraf",
+    "usage_rate": 0.05946,
+    "raw_count": 4543,
+    "real_count": 3349
+  },
+  {
+    "name": "Dudunsparce",
+    "usage_rate": 0.05862,
+    "raw_count": 4753,
+    "real_count": 3630
+  },
+  {
+    "name": "Furret",
+    "usage_rate": 0.05854,
+    "raw_count": 5815,
+    "real_count": 4365
+  },
+  {
+    "name": "Illumise",
+    "usage_rate": 0.05748,
+    "raw_count": 3176,
+    "real_count": 2516
+  },
+  {
+    "name": "Pikachu",
+    "usage_rate": 0.05589,
+    "raw_count": 6272,
+    "real_count": 4480
+  },
+  {
+    "name": "Volbeat",
+    "usage_rate": 0.05587,
+    "raw_count": 3532,
+    "real_count": 2912
+  },
+  {
+    "name": "Beartic",
+    "usage_rate": 0.05322,
+    "raw_count": 3941,
+    "real_count": 2860
+  },
+  {
+    "name": "Veluza",
+    "usage_rate": 0.05256,
+    "raw_count": 3248,
+    "real_count": 2418
+  },
+  {
+    "name": "Zoroark",
+    "usage_rate": 0.05236,
+    "raw_count": 4789,
+    "real_count": 2106
+  },
+  {
+    "name": "Eelektross",
+    "usage_rate": 0.05044,
+    "raw_count": 6702,
+    "real_count": 5297
+  },
+  {
+    "name": "Mismagius",
+    "usage_rate": 0.04981,
+    "raw_count": 4553,
+    "real_count": 3381
+  },
+  {
+    "name": "Scyther",
+    "usage_rate": 0.04821,
+    "raw_count": 5769,
+    "real_count": 4329
+  },
+  {
+    "name": "Appletun",
+    "usage_rate": 0.04681,
+    "raw_count": 3518,
+    "real_count": 2584
+  },
+  {
+    "name": "Raichu-Alola",
+    "usage_rate": 0.04638,
+    "raw_count": 4029,
+    "real_count": 3063
+  },
+  {
+    "name": "Ariados",
+    "usage_rate": 0.04604,
+    "raw_count": 5477,
+    "real_count": 4735
+  },
+  {
+    "name": "Rotom-Mow",
+    "usage_rate": 0.04568,
+    "raw_count": 2750,
+    "real_count": 2185
+  },
+  {
+    "name": "Slaking",
+    "usage_rate": 0.0455,
+    "raw_count": 4079,
+    "real_count": 3000
+  },
+  {
+    "name": "Chimecho",
+    "usage_rate": 0.04547,
+    "raw_count": 3164,
+    "real_count": 2281
+  },
+  {
+    "name": "Arbok",
+    "usage_rate": 0.04355,
+    "raw_count": 4526,
+    "real_count": 3597
+  },
+  {
+    "name": "Primeape",
+    "usage_rate": 0.0434,
+    "raw_count": 2638,
+    "real_count": 2019
+  },
+  {
+    "name": "Dachsbun",
+    "usage_rate": 0.04139,
+    "raw_count": 3129,
+    "real_count": 2275
+  },
+  {
+    "name": "Eiscue",
+    "usage_rate": 0.04104,
+    "raw_count": 3298,
+    "real_count": 2459
+  },
+  {
+    "name": "Honchkrow",
+    "usage_rate": 0.04039,
+    "raw_count": 3165,
+    "real_count": 2352
+  },
+  {
+    "name": "Magcargo",
+    "usage_rate": 0.03984,
+    "raw_count": 3365,
+    "real_count": 2541
+  },
+  {
+    "name": "Weezing",
+    "usage_rate": 0.0397,
+    "raw_count": 3933,
+    "real_count": 3073
+  },
+  {
+    "name": "Decidueye",
+    "usage_rate": 0.03957,
+    "raw_count": 3684,
+    "real_count": 2737
+  },
+  {
+    "name": "Lurantis",
+    "usage_rate": 0.03868,
+    "raw_count": 5821,
+    "real_count": 4384
+  },
+  {
+    "name": "Oricorio-Pom-Pom",
+    "usage_rate": 0.03843,
+    "raw_count": 2181,
+    "real_count": 1668
+  },
+  {
+    "name": "Golduck",
+    "usage_rate": 0.03815,
+    "raw_count": 2714,
+    "real_count": 1958
+  },
+  {
+    "name": "Sandslash",
+    "usage_rate": 0.03751,
+    "raw_count": 2975,
+    "real_count": 2280
+  },
+  {
+    "name": "Zangoose",
+    "usage_rate": 0.03715,
+    "raw_count": 3281,
+    "real_count": 2380
+  },
+  {
+    "name": "Articuno",
+    "usage_rate": 0.03693,
+    "raw_count": 2911,
+    "real_count": 2295
+  },
+  {
+    "name": "Hoopa",
+    "usage_rate": 0.03539,
+    "raw_count": 1735,
+    "real_count": 1347
+  },
+  {
+    "name": "Venomoth",
+    "usage_rate": 0.03433,
+    "raw_count": 3154,
+    "real_count": 2345
+  },
+  {
+    "name": "Squawkabilly",
+    "usage_rate": 0.03433,
+    "raw_count": 1988,
+    "real_count": 1647
+  },
+  {
+    "name": "Ursaring",
+    "usage_rate": 0.03286,
+    "raw_count": 2689,
+    "real_count": 2070
+  },
+  {
+    "name": "Tropius",
+    "usage_rate": 0.03281,
+    "raw_count": 3802,
+    "real_count": 2762
+  },
+  {
+    "name": "Mudsdale",
+    "usage_rate": 0.03278,
+    "raw_count": 3255,
+    "real_count": 2512
+  },
+  {
+    "name": "Palossand",
+    "usage_rate": 0.0312,
+    "raw_count": 2126,
+    "real_count": 1681
+  },
+  {
+    "name": "Crabominable",
+    "usage_rate": 0.03101,
+    "raw_count": 1711,
+    "real_count": 1272
+  },
+  {
+    "name": "Sandaconda",
+    "usage_rate": 0.03057,
+    "raw_count": 3172,
+    "real_count": 2435
+  },
+  {
+    "name": "Flareon",
+    "usage_rate": 0.02955,
+    "raw_count": 3204,
+    "real_count": 2356
+  },
+  {
+    "name": "Houndoom",
+    "usage_rate": 0.02912,
+    "raw_count": 3604,
+    "real_count": 2668
+  },
+  {
+    "name": "Cacturne",
+    "usage_rate": 0.02911,
+    "raw_count": 2532,
+    "real_count": 1871
+  },
+  {
+    "name": "Probopass",
+    "usage_rate": 0.02899,
+    "raw_count": 2600,
+    "real_count": 2047
+  },
+  {
+    "name": "Murkrow",
+    "usage_rate": 0.02856,
+    "raw_count": 2779,
+    "real_count": 2194
+  },
+  {
+    "name": "Noctowl",
+    "usage_rate": 0.02789,
+    "raw_count": 2264,
+    "real_count": 1664
+  },
+  {
+    "name": "Clawitzer",
+    "usage_rate": 0.02784,
+    "raw_count": 3387,
+    "real_count": 2568
+  },
+  {
+    "name": "Luxray",
+    "usage_rate": 0.02636,
+    "raw_count": 3386,
+    "real_count": 2499
+  },
+  {
+    "name": "Qwilfish-Hisui",
+    "usage_rate": 0.02482,
+    "raw_count": 1540,
+    "real_count": 1295
+  },
+  {
+    "name": "Mabosstiff",
+    "usage_rate": 0.02464,
+    "raw_count": 1979,
+    "real_count": 1471
+  },
+  {
+    "name": "Tauros",
+    "usage_rate": 0.02447,
+    "raw_count": 1861,
+    "real_count": 1371
+  },
+  {
+    "name": "Falinks",
+    "usage_rate": 0.02439,
+    "raw_count": 1889,
+    "real_count": 1351
+  },
+  {
+    "name": "Carbink",
+    "usage_rate": 0.02437,
+    "raw_count": 1586,
+    "real_count": 1333
+  },
+  {
+    "name": "Komala",
+    "usage_rate": 0.02392,
+    "raw_count": 2748,
+    "real_count": 2127
+  },
+  {
+    "name": "Magneton",
+    "usage_rate": 0.02375,
+    "raw_count": 1981,
+    "real_count": 1558
+  },
+  {
+    "name": "Wyrdeer",
+    "usage_rate": 0.02344,
+    "raw_count": 1614,
+    "real_count": 1207
+  },
+  {
+    "name": "Raichu",
+    "usage_rate": 0.02333,
+    "raw_count": 3367,
+    "real_count": 2362
+  },
+  {
+    "name": "Ampharos",
+    "usage_rate": 0.02208,
+    "raw_count": 2375,
+    "real_count": 1911
+  },
+  {
+    "name": "Haunter",
+    "usage_rate": 0.02128,
+    "raw_count": 1596,
+    "real_count": 1238
+  },
+  {
+    "name": "Persian-Alola",
+    "usage_rate": 0.02053,
+    "raw_count": 1819,
+    "real_count": 1440
+  },
+  {
+    "name": "Jumpluff",
+    "usage_rate": 0.01974,
+    "raw_count": 2413,
+    "real_count": 1893
+  },
+  {
+    "name": "Dugtrio",
+    "usage_rate": 0.01918,
+    "raw_count": 1412,
+    "real_count": 1106
+  },
+  {
+    "name": "Rotom-Frost",
+    "usage_rate": 0.01865,
+    "raw_count": 1901,
+    "real_count": 1482
+  },
+  {
+    "name": "Copperajah",
+    "usage_rate": 0.01865,
+    "raw_count": 1455,
+    "real_count": 1089
+  },
+  {
+    "name": "Oricorio-Sensu",
+    "usage_rate": 0.01805,
+    "raw_count": 1551,
+    "real_count": 1092
+  },
+  {
+    "name": "Dugtrio-Alola",
+    "usage_rate": 0.01796,
+    "raw_count": 1242,
+    "real_count": 950
+  },
+  {
+    "name": "Bruxish",
+    "usage_rate": 0.01794,
+    "raw_count": 1714,
+    "real_count": 1208
+  },
+  {
+    "name": "Gligar",
+    "usage_rate": 0.0174,
+    "raw_count": 994,
+    "real_count": 851
+  },
+  {
+    "name": "Sawsbuck",
+    "usage_rate": 0.01689,
+    "raw_count": 1863,
+    "real_count": 1360
+  },
+  {
+    "name": "Klawf",
+    "usage_rate": 0.01632,
+    "raw_count": 2310,
+    "real_count": 1768
+  },
+  {
+    "name": "Dedenne",
+    "usage_rate": 0.01622,
+    "raw_count": 1142,
+    "real_count": 826
+  },
+  {
+    "name": "Kricketune",
+    "usage_rate": 0.01542,
+    "raw_count": 1260,
+    "real_count": 1067
+  },
+  {
+    "name": "Flapple",
+    "usage_rate": 0.01512,
+    "raw_count": 1134,
+    "real_count": 767
+  },
+  {
+    "name": "Lycanroc-Midnight",
+    "usage_rate": 0.01449,
+    "raw_count": 1540,
+    "real_count": 1189
+  },
+  {
+    "name": "Braviary",
+    "usage_rate": 0.01392,
+    "raw_count": 1703,
+    "real_count": 1218
+  },
+  {
+    "name": "Bombirdier",
+    "usage_rate": 0.01389,
+    "raw_count": 1468,
+    "real_count": 1159
+  },
+  {
+    "name": "Gogoat",
+    "usage_rate": 0.0131,
+    "raw_count": 1617,
+    "real_count": 1183
+  },
+  {
+    "name": "Muk",
+    "usage_rate": 0.01309,
+    "raw_count": 1645,
+    "real_count": 1272
+  },
+  {
+    "name": "Oricorio",
+    "usage_rate": 0.01222,
+    "raw_count": 1341,
+    "real_count": 977
+  },
+  {
+    "name": "Dunsparce",
+    "usage_rate": 0.01197,
+    "raw_count": 1533,
+    "real_count": 1141
+  },
+  {
+    "name": "Camerupt",
+    "usage_rate": 0.01189,
+    "raw_count": 922,
+    "real_count": 748
+  },
+  {
+    "name": "Greedent",
+    "usage_rate": 0.01173,
+    "raw_count": 1120,
+    "real_count": 751
+  },
+  {
+    "name": "Hattrem",
+    "usage_rate": 0.01173,
+    "raw_count": 765,
+    "real_count": 585
+  },
+  {
+    "name": "Electrode",
+    "usage_rate": 0.01136,
+    "raw_count": 1218,
+    "real_count": 1028
+  },
+  {
+    "name": "Mesprit",
+    "usage_rate": 0.01134,
+    "raw_count": 889,
+    "real_count": 670
+  },
+  {
+    "name": "Qwilfish",
+    "usage_rate": 0.01048,
+    "raw_count": 942,
+    "real_count": 752
+  },
+  {
+    "name": "Banette",
+    "usage_rate": 0.01009,
+    "raw_count": 940,
+    "real_count": 721
+  },
+  {
+    "name": "Perrserker",
+    "usage_rate": 0.01009,
+    "raw_count": 1159,
+    "real_count": 921
+  },
+  {
+    "name": "Mightyena",
+    "usage_rate": 0.00978,
+    "raw_count": 1177,
+    "real_count": 881
+  },
+  {
+    "name": "Vespiquen",
+    "usage_rate": 0.00937,
+    "raw_count": 665,
+    "real_count": 507
+  },
+  {
+    "name": "Whiscash",
+    "usage_rate": 0.00916,
+    "raw_count": 1066,
+    "real_count": 856
+  },
+  {
+    "name": "Pyroar",
+    "usage_rate": 0.00912,
+    "raw_count": 1017,
+    "real_count": 741
+  },
+  {
+    "name": "Wigglytuff",
+    "usage_rate": 0.00905,
+    "raw_count": 1367,
+    "real_count": 1021
+  },
+  {
+    "name": "Wugtrio",
+    "usage_rate": 0.00877,
+    "raw_count": 1005,
+    "real_count": 752
+  },
+  {
+    "name": "Grumpig",
+    "usage_rate": 0.00866,
+    "raw_count": 517,
+    "real_count": 375
+  },
+  {
+    "name": "Delibird",
+    "usage_rate": 0.00796,
+    "raw_count": 646,
+    "real_count": 498
+  },
+  {
+    "name": "Passimian",
+    "usage_rate": 0.00763,
+    "raw_count": 1068,
+    "real_count": 715
+  },
+  {
+    "name": "Persian",
+    "usage_rate": 0.00739,
+    "raw_count": 795,
+    "real_count": 651
+  },
+  {
+    "name": "Naclstack",
+    "usage_rate": 0.00702,
+    "raw_count": 624,
+    "real_count": 459
+  },
+  {
+    "name": "Basculin",
+    "usage_rate": 0.00695,
+    "raw_count": 781,
+    "real_count": 621
+  },
+  {
+    "name": "Gurdurr",
+    "usage_rate": 0.00681,
+    "raw_count": 515,
+    "real_count": 389
+  },
+  {
+    "name": "Starly",
+    "usage_rate": 0.00648,
+    "raw_count": 960,
+    "real_count": 738
+  },
+  {
+    "name": "Swanna",
+    "usage_rate": 0.0063,
+    "raw_count": 946,
+    "real_count": 747
+  },
+  {
+    "name": "Samurott",
+    "usage_rate": 0.0062,
+    "raw_count": 971,
+    "real_count": 744
+  },
+  {
+    "name": "Hypno",
+    "usage_rate": 0.0061,
+    "raw_count": 973,
+    "real_count": 783
+  },
+  {
+    "name": "Piloswine",
+    "usage_rate": 0.00604,
+    "raw_count": 646,
+    "real_count": 534
+  },
+  {
+    "name": "Misdreavus",
+    "usage_rate": 0.00603,
+    "raw_count": 857,
+    "real_count": 656
+  },
+  {
+    "name": "Sudowoodo",
+    "usage_rate": 0.0059,
+    "raw_count": 881,
+    "real_count": 684
+  },
+  {
+    "name": "Pachirisu",
+    "usage_rate": 0.00567,
+    "raw_count": 991,
+    "real_count": 749
+  },
+  {
+    "name": "Charjabug",
+    "usage_rate": 0.00498,
+    "raw_count": 569,
+    "real_count": 521
+  },
+  {
+    "name": "Rotom-Fan",
+    "usage_rate": 0.00482,
+    "raw_count": 410,
+    "real_count": 332
+  },
+  {
+    "name": "Stonjourner",
+    "usage_rate": 0.00481,
+    "raw_count": 1010,
+    "real_count": 702
+  },
+  {
+    "name": "Seviper",
+    "usage_rate": 0.00481,
+    "raw_count": 639,
+    "real_count": 471
+  },
+  {
+    "name": "Geodude",
+    "usage_rate": 0.00477,
+    "raw_count": 434,
+    "real_count": 397
+  },
+  {
+    "name": "Skuntank",
+    "usage_rate": 0.00457,
+    "raw_count": 777,
+    "real_count": 596
+  },
+  {
+    "name": "Swalot",
+    "usage_rate": 0.0044,
+    "raw_count": 864,
+    "real_count": 676
+  },
+  {
+    "name": "Pineco",
+    "usage_rate": 0.0043,
+    "raw_count": 419,
+    "real_count": 400
+  },
+  {
+    "name": "Sunflora",
+    "usage_rate": 0.00417,
+    "raw_count": 633,
+    "real_count": 467
+  },
+  {
+    "name": "Vigoroth",
+    "usage_rate": 0.00407,
+    "raw_count": 567,
+    "real_count": 415
+  },
+  {
+    "name": "Oranguru",
+    "usage_rate": 0.00392,
+    "raw_count": 934,
+    "real_count": 674
+  },
+  {
+    "name": "Crocalor",
+    "usage_rate": 0.00389,
+    "raw_count": 533,
+    "real_count": 418
+  },
+  {
+    "name": "Phione",
+    "usage_rate": 0.00386,
+    "raw_count": 427,
+    "real_count": 315
+  },
+  {
+    "name": "Tauros-Paldea-Combat",
+    "usage_rate": 0.00366,
+    "raw_count": 447,
+    "real_count": 330
+  },
+  {
+    "name": "Nosepass",
+    "usage_rate": 0.00364,
+    "raw_count": 268,
+    "real_count": 234
+  },
+  {
+    "name": "Clefairy",
+    "usage_rate": 0.00357,
+    "raw_count": 414,
+    "real_count": 331
+  },
+  {
+    "name": "Oinkologne",
+    "usage_rate": 0.00345,
+    "raw_count": 398,
+    "real_count": 300
+  },
+  {
+    "name": "Gothitelle",
+    "usage_rate": 0.00334,
+    "raw_count": 639,
+    "real_count": 436
+  },
+  {
+    "name": "Gumshoos",
+    "usage_rate": 0.00323,
+    "raw_count": 501,
+    "real_count": 394
+  },
+  {
+    "name": "Magnemite",
+    "usage_rate": 0.00323,
+    "raw_count": 338,
+    "real_count": 316
+  },
+  {
+    "name": "Rotom",
+    "usage_rate": 0.00309,
+    "raw_count": 722,
+    "real_count": 564
+  },
+  {
+    "name": "Glimmet",
+    "usage_rate": 0.00308,
+    "raw_count": 232,
+    "real_count": 193
+  },
+  {
+    "name": "Shroomish",
+    "usage_rate": 0.00307,
+    "raw_count": 131,
+    "real_count": 114
+  },
+  {
+    "name": "Wooper",
+    "usage_rate": 0.00283,
+    "raw_count": 299,
+    "real_count": 238
+  },
+  {
+    "name": "Lumineon",
+    "usage_rate": 0.00272,
+    "raw_count": 637,
+    "real_count": 477
+  },
+  {
+    "name": "Sneasel",
+    "usage_rate": 0.00248,
+    "raw_count": 162,
+    "real_count": 113
+  },
+  {
+    "name": "Magikarp",
+    "usage_rate": 0.00246,
+    "raw_count": 223,
+    "real_count": 171
+  },
+  {
+    "name": "Girafarig",
+    "usage_rate": 0.00235,
+    "raw_count": 268,
+    "real_count": 222
+  },
+  {
+    "name": "Vulpix",
+    "usage_rate": 0.00232,
+    "raw_count": 184,
+    "real_count": 147
+  },
+  {
+    "name": "Cutiefly",
+    "usage_rate": 0.00223,
+    "raw_count": 170,
+    "real_count": 141
+  },
+  {
+    "name": "Oinkologne-F",
+    "usage_rate": 0.00212,
+    "raw_count": 388,
+    "real_count": 261
+  },
+  {
+    "name": "Jigglypuff",
+    "usage_rate": 0.0021,
+    "raw_count": 145,
+    "real_count": 122
+  },
+  {
+    "name": "Psyduck",
+    "usage_rate": 0.00208,
+    "raw_count": 223,
+    "real_count": 179
+  },
+  {
+    "name": "Dragonair",
+    "usage_rate": 0.00207,
+    "raw_count": 290,
+    "real_count": 202
+  },
+  {
+    "name": "Oricorio-Pa'u",
+    "usage_rate": 0.00203,
+    "raw_count": 277,
+    "real_count": 224
+  },
+  {
+    "name": "Phanpy",
+    "usage_rate": 0.00197,
+    "raw_count": 137,
+    "real_count": 101
+  },
+  {
+    "name": "Carkol",
+    "usage_rate": 0.00195,
+    "raw_count": 134,
+    "real_count": 106
+  },
+  {
+    "name": "Lechonk",
+    "usage_rate": 0.00188,
+    "raw_count": 231,
+    "real_count": 177
+  },
+  {
+    "name": "Riolu",
+    "usage_rate": 0.00184,
+    "raw_count": 401,
+    "real_count": 283
+  },
+  {
+    "name": "Glalie",
+    "usage_rate": 0.00184,
+    "raw_count": 334,
+    "real_count": 237
+  },
+  {
+    "name": "Calyrex",
+    "usage_rate": 0.00169,
+    "raw_count": 157,
+    "real_count": 112
+  },
+  {
+    "name": "Voltorb",
+    "usage_rate": 0.00164,
+    "raw_count": 197,
+    "real_count": 191
+  },
+  {
+    "name": "Munchlax",
+    "usage_rate": 0.00155,
+    "raw_count": 292,
+    "real_count": 239
+  },
+  {
+    "name": "Wooper-Paldea",
+    "usage_rate": 0.00151,
+    "raw_count": 241,
+    "real_count": 168
+  },
+  {
+    "name": "Dartrix",
+    "usage_rate": 0.0015,
+    "raw_count": 121,
+    "real_count": 98
+  },
+  {
+    "name": "Eevee",
+    "usage_rate": 0.00149,
+    "raw_count": 244,
+    "real_count": 193
+  },
+  {
+    "name": "Koffing",
+    "usage_rate": 0.00147,
+    "raw_count": 192,
+    "real_count": 170
+  },
+  {
+    "name": "Poliwhirl",
+    "usage_rate": 0.00146,
+    "raw_count": 100,
+    "real_count": 84
+  },
+  {
+    "name": "Arctibax",
+    "usage_rate": 0.00144,
+    "raw_count": 221,
+    "real_count": 162
+  },
+  {
+    "name": "Wattrel",
+    "usage_rate": 0.00144,
+    "raw_count": 213,
+    "real_count": 170
+  },
+  {
+    "name": "Hatenna",
+    "usage_rate": 0.00143,
+    "raw_count": 155,
+    "real_count": 127
+  },
+  {
+    "name": "Graveler-Alola",
+    "usage_rate": 0.00139,
+    "raw_count": 134,
+    "real_count": 98
+  },
+  {
+    "name": "Sunkern",
+    "usage_rate": 0.00135,
+    "raw_count": 178,
+    "real_count": 125
+  },
+  {
+    "name": "Pichu",
+    "usage_rate": 0.00134,
+    "raw_count": 143,
+    "real_count": 123
+  },
+  {
+    "name": "Geodude-Alola",
+    "usage_rate": 0.00133,
+    "raw_count": 163,
+    "real_count": 152
+  },
+  {
+    "name": "Sliggoo-Hisui",
+    "usage_rate": 0.00133,
+    "raw_count": 102,
+    "real_count": 77
+  },
+  {
+    "name": "Sneasel-Hisui",
+    "usage_rate": 0.00127,
+    "raw_count": 145,
+    "real_count": 95
+  },
+  {
+    "name": "Stantler",
+    "usage_rate": 0.00125,
+    "raw_count": 113,
+    "real_count": 95
+  },
+  {
+    "name": "Mareanie",
+    "usage_rate": 0.00122,
+    "raw_count": 155,
+    "real_count": 124
+  },
+  {
+    "name": "Thwackey",
+    "usage_rate": 0.00121,
+    "raw_count": 134,
+    "real_count": 104
+  },
+  {
+    "name": "Luvdisc",
+    "usage_rate": 0.00114,
+    "raw_count": 163,
+    "real_count": 118
+  },
+  {
+    "name": "Buizel",
+    "usage_rate": 0.00112,
+    "raw_count": 151,
+    "real_count": 123
+  },
+  {
+    "name": "Monferno",
+    "usage_rate": 0.00111,
+    "raw_count": 67,
+    "real_count": 46
+  },
+  {
+    "name": "Drakloak",
+    "usage_rate": 0.00111,
+    "raw_count": 149,
+    "real_count": 111
+  },
+  {
+    "name": "Surskit",
+    "usage_rate": 0.00111,
+    "raw_count": 104,
+    "real_count": 86
+  },
+  {
+    "name": "Graveler",
+    "usage_rate": 0.0011,
+    "raw_count": 116,
+    "real_count": 105
+  },
+  {
+    "name": "Tarountula",
+    "usage_rate": 0.00109,
+    "raw_count": 340,
+    "real_count": 321
+  },
+  {
+    "name": "Frogadier",
+    "usage_rate": 0.00109,
+    "raw_count": 121,
+    "real_count": 109
+  },
+  {
+    "name": "Seedot",
+    "usage_rate": 0.00106,
+    "raw_count": 121,
+    "real_count": 115
+  },
+  {
+    "name": "Flittle",
+    "usage_rate": 0.00106,
+    "raw_count": 174,
+    "real_count": 137
+  },
+  {
+    "name": "Corphish",
+    "usage_rate": 0.00101,
+    "raw_count": 291,
+    "real_count": 225
+  },
+  {
+    "name": "Morgrem",
+    "usage_rate": 0.00101,
+    "raw_count": 123,
+    "real_count": 105
+  },
+  {
+    "name": "Vulpix-Alola",
+    "usage_rate": 0.001,
+    "raw_count": 122,
+    "real_count": 105
+  },
+  {
+    "name": "Voltorb-Hisui",
+    "usage_rate": 0.00099,
+    "raw_count": 110,
+    "real_count": 83
+  },
+  {
+    "name": "Snom",
+    "usage_rate": 0.00098,
+    "raw_count": 144,
+    "real_count": 122
+  },
+  {
+    "name": "Zorua-Hisui",
+    "usage_rate": 0.00096,
+    "raw_count": 170,
+    "real_count": 52
+  },
+  {
+    "name": "Salandit",
+    "usage_rate": 0.00093,
+    "raw_count": 61,
+    "real_count": 44
+  },
+  {
+    "name": "Zweilous",
+    "usage_rate": 0.00092,
+    "raw_count": 119,
+    "real_count": 94
+  },
+  {
+    "name": "Ralts",
+    "usage_rate": 0.0009,
+    "raw_count": 99,
+    "real_count": 87
+  },
+  {
+    "name": "Gastly",
+    "usage_rate": 0.00089,
+    "raw_count": 343,
+    "real_count": 219
+  },
+  {
+    "name": "Charmeleon",
+    "usage_rate": 0.00088,
+    "raw_count": 60,
+    "real_count": 40
+  },
+  {
+    "name": "Sinistea",
+    "usage_rate": 0.00088,
+    "raw_count": 114,
+    "real_count": 86
+  },
+  {
+    "name": "Cufant",
+    "usage_rate": 0.00087,
+    "raw_count": 39,
+    "real_count": 26
+  },
+  {
+    "name": "Gabite",
+    "usage_rate": 0.00084,
+    "raw_count": 92,
+    "real_count": 77
+  },
+  {
+    "name": "Toedscool",
+    "usage_rate": 0.00084,
+    "raw_count": 76,
+    "real_count": 56
+  },
+  {
+    "name": "Hoppip",
+    "usage_rate": 0.00083,
+    "raw_count": 64,
+    "real_count": 41
+  },
+  {
+    "name": "Krokorok",
+    "usage_rate": 0.00083,
+    "raw_count": 38,
+    "real_count": 32
+  },
+  {
+    "name": "Shelgon",
+    "usage_rate": 0.00081,
+    "raw_count": 89,
+    "real_count": 61
+  },
+  {
+    "name": "Hakamo-o",
+    "usage_rate": 0.00081,
+    "raw_count": 75,
+    "real_count": 49
+  },
+  {
+    "name": "Ducklett",
+    "usage_rate": 0.0008,
+    "raw_count": 98,
+    "real_count": 67
+  },
+  {
+    "name": "Cleffa",
+    "usage_rate": 0.0008,
+    "raw_count": 159,
+    "real_count": 118
+  },
+  {
+    "name": "Swadloon",
+    "usage_rate": 0.00077,
+    "raw_count": 138,
+    "real_count": 108
+  },
+  {
+    "name": "Diglett",
+    "usage_rate": 0.00072,
+    "raw_count": 56,
+    "real_count": 47
+  },
+  {
+    "name": "Grotle",
+    "usage_rate": 0.00069,
+    "raw_count": 93,
+    "real_count": 74
+  },
+  {
+    "name": "Quaxwell",
+    "usage_rate": 0.00067,
+    "raw_count": 140,
+    "real_count": 117
+  },
+  {
+    "name": "Pupitar",
+    "usage_rate": 0.00067,
+    "raw_count": 52,
+    "real_count": 45
+  },
+  {
+    "name": "Fuecoco",
+    "usage_rate": 0.00067,
+    "raw_count": 56,
+    "real_count": 39
+  },
+  {
+    "name": "Mudbray",
+    "usage_rate": 0.00066,
+    "raw_count": 68,
+    "real_count": 49
+  },
+  {
+    "name": "Aipom",
+    "usage_rate": 0.00066,
+    "raw_count": 76,
+    "real_count": 66
+  },
+  {
+    "name": "Wingull",
+    "usage_rate": 0.00064,
+    "raw_count": 72,
+    "real_count": 69
+  },
+  {
+    "name": "Rockruff",
+    "usage_rate": 0.00063,
+    "raw_count": 83,
+    "real_count": 56
+  },
+  {
+    "name": "Marill",
+    "usage_rate": 0.00062,
+    "raw_count": 72,
+    "real_count": 55
+  },
+  {
+    "name": "Pawniard",
+    "usage_rate": 0.00062,
+    "raw_count": 39,
+    "real_count": 36
+  },
+  {
+    "name": "Meowth",
+    "usage_rate": 0.0006,
+    "raw_count": 117,
+    "real_count": 82
+  },
+  {
+    "name": "Dratini",
+    "usage_rate": 0.00059,
+    "raw_count": 35,
+    "real_count": 27
+  },
+  {
+    "name": "Kirlia",
+    "usage_rate": 0.00057,
+    "raw_count": 72,
+    "real_count": 53
+  },
+  {
+    "name": "Feebas",
+    "usage_rate": 0.00055,
+    "raw_count": 34,
+    "real_count": 27
+  },
+  {
+    "name": "Staravia",
+    "usage_rate": 0.00054,
+    "raw_count": 67,
+    "real_count": 37
+  },
+  {
+    "name": "Braixen",
+    "usage_rate": 0.00054,
+    "raw_count": 112,
+    "real_count": 78
+  },
+  {
+    "name": "Greavard",
+    "usage_rate": 0.00054,
+    "raw_count": 37,
+    "real_count": 35
+  },
+  {
+    "name": "Skiploom",
+    "usage_rate": 0.00054,
+    "raw_count": 41,
+    "real_count": 33
+  },
+  {
+    "name": "Drifloon",
+    "usage_rate": 0.00053,
+    "raw_count": 273,
+    "real_count": 233
+  },
+  {
+    "name": "Eelektrik",
+    "usage_rate": 0.00051,
+    "raw_count": 74,
+    "real_count": 60
+  },
+  {
+    "name": "Numel",
+    "usage_rate": 0.00051,
+    "raw_count": 134,
+    "real_count": 122
+  },
+  {
+    "name": "Spinarak",
+    "usage_rate": 0.0005,
+    "raw_count": 30,
+    "real_count": 27
+  },
+  {
+    "name": "Varoom",
+    "usage_rate": 0.0005,
+    "raw_count": 75,
+    "real_count": 67
+  },
+  {
+    "name": "Teddiursa",
+    "usage_rate": 0.0005,
+    "raw_count": 69,
+    "real_count": 56
+  },
+  {
+    "name": "Slowpoke",
+    "usage_rate": 0.00048,
+    "raw_count": 40,
+    "real_count": 37
+  },
+  {
+    "name": "Tandemaus",
+    "usage_rate": 0.00047,
+    "raw_count": 61,
+    "real_count": 50
+  },
+  {
+    "name": "Dolliv",
+    "usage_rate": 0.00046,
+    "raw_count": 119,
+    "real_count": 75
+  },
+  {
+    "name": "Tinkatuff",
+    "usage_rate": 0.00046,
+    "raw_count": 105,
+    "real_count": 95
+  },
+  {
+    "name": "Grookey",
+    "usage_rate": 0.00046,
+    "raw_count": 58,
+    "real_count": 50
+  },
+  {
+    "name": "Vullaby",
+    "usage_rate": 0.00046,
+    "raw_count": 92,
+    "real_count": 87
+  },
+  {
+    "name": "Bonsly",
+    "usage_rate": 0.00045,
+    "raw_count": 115,
+    "real_count": 96
+  },
+  {
+    "name": "Lampent",
+    "usage_rate": 0.00044,
+    "raw_count": 66,
+    "real_count": 50
+  },
+  {
+    "name": "Axew",
+    "usage_rate": 0.00043,
+    "raw_count": 51,
+    "real_count": 27
+  },
+  {
+    "name": "Floragato",
+    "usage_rate": 0.00043,
+    "raw_count": 55,
+    "real_count": 43
+  },
+  {
+    "name": "Hippopotas",
+    "usage_rate": 0.00043,
+    "raw_count": 34,
+    "real_count": 34
+  },
+  {
+    "name": "Sprigatito",
+    "usage_rate": 0.00042,
+    "raw_count": 56,
+    "real_count": 45
+  },
+  {
+    "name": "Poliwag",
+    "usage_rate": 0.00041,
+    "raw_count": 42,
+    "real_count": 25
+  },
+  {
+    "name": "Igglybuff",
+    "usage_rate": 0.00041,
+    "raw_count": 110,
+    "real_count": 100
+  },
+  {
+    "name": "Charmander",
+    "usage_rate": 0.00041,
+    "raw_count": 58,
+    "real_count": 40
+  },
+  {
+    "name": "Happiny",
+    "usage_rate": 0.0004,
+    "raw_count": 36,
+    "real_count": 32
+  },
+  {
+    "name": "Zorua",
+    "usage_rate": 0.00039,
+    "raw_count": 60,
+    "real_count": 34
+  },
+  {
+    "name": "Azurill",
+    "usage_rate": 0.00039,
+    "raw_count": 66,
+    "real_count": 58
+  },
+  {
+    "name": "Duskull",
+    "usage_rate": 0.00039,
+    "raw_count": 108,
+    "real_count": 86
+  },
+  {
+    "name": "Pawmo",
+    "usage_rate": 0.00038,
+    "raw_count": 24,
+    "real_count": 17
+  },
+  {
+    "name": "Cetoddle",
+    "usage_rate": 0.00038,
+    "raw_count": 77,
+    "real_count": 57
+  },
+  {
+    "name": "Shellder",
+    "usage_rate": 0.00037,
+    "raw_count": 25,
+    "real_count": 24
+  },
+  {
+    "name": "Stunky",
+    "usage_rate": 0.00037,
+    "raw_count": 29,
+    "real_count": 25
+  },
+  {
+    "name": "Rufflet",
+    "usage_rate": 0.00037,
+    "raw_count": 110,
+    "real_count": 101
+  },
+  {
+    "name": "Houndour",
+    "usage_rate": 0.00036,
+    "raw_count": 24,
+    "real_count": 18
+  },
+  {
+    "name": "Kubfu",
+    "usage_rate": 0.00035,
+    "raw_count": 56,
+    "real_count": 39
+  },
+  {
+    "name": "Croagunk",
+    "usage_rate": 0.00035,
+    "raw_count": 43,
+    "real_count": 31
+  },
+  {
+    "name": "Rolycoly",
+    "usage_rate": 0.00033,
+    "raw_count": 35,
+    "real_count": 34
+  },
+  {
+    "name": "Rowlet",
+    "usage_rate": 0.00033,
+    "raw_count": 26,
+    "real_count": 23
+  },
+  {
+    "name": "Bagon",
+    "usage_rate": 0.00032,
+    "raw_count": 31,
+    "real_count": 29
+  },
+  {
+    "name": "Charcadet",
+    "usage_rate": 0.00031,
+    "raw_count": 21,
+    "real_count": 16
+  },
+  {
+    "name": "Swinub",
+    "usage_rate": 0.00031,
+    "raw_count": 19,
+    "real_count": 16
+  },
+  {
+    "name": "Prinplup",
+    "usage_rate": 0.00031,
+    "raw_count": 53,
+    "real_count": 45
+  },
+  {
+    "name": "Wiglett",
+    "usage_rate": 0.00031,
+    "raw_count": 70,
+    "real_count": 46
+  },
+  {
+    "name": "Toxel",
+    "usage_rate": 0.00031,
+    "raw_count": 40,
+    "real_count": 35
+  },
+  {
+    "name": "Ekans",
+    "usage_rate": 0.0003,
+    "raw_count": 51,
+    "real_count": 46
+  },
+  {
+    "name": "Fletchinder",
+    "usage_rate": 0.0003,
+    "raw_count": 52,
+    "real_count": 45
+  },
+  {
+    "name": "Quaxly",
+    "usage_rate": 0.00029,
+    "raw_count": 23,
+    "real_count": 19
+  },
+  {
+    "name": "Weepinbell",
+    "usage_rate": 0.00029,
+    "raw_count": 19,
+    "real_count": 16
+  },
+  {
+    "name": "Nacli",
+    "usage_rate": 0.00029,
+    "raw_count": 28,
+    "real_count": 24
+  },
+  {
+    "name": "Fraxure",
+    "usage_rate": 0.00029,
+    "raw_count": 55,
+    "real_count": 36
+  },
+  {
+    "name": "Slugma",
+    "usage_rate": 0.00029,
+    "raw_count": 57,
+    "real_count": 53
+  },
+  {
+    "name": "Meowth-Alola",
+    "usage_rate": 0.00029,
+    "raw_count": 19,
+    "real_count": 17
+  },
+  {
+    "name": "Gible",
+    "usage_rate": 0.00029,
+    "raw_count": 34,
+    "real_count": 32
+  },
+  {
+    "name": "Shellos",
+    "usage_rate": 0.00029,
+    "raw_count": 31,
+    "real_count": 26
+  },
+  {
+    "name": "Litwick",
+    "usage_rate": 0.00028,
+    "raw_count": 54,
+    "real_count": 37
+  },
+  {
+    "name": "Meditite",
+    "usage_rate": 0.00028,
+    "raw_count": 62,
+    "real_count": 43
+  },
+  {
+    "name": "Drowzee",
+    "usage_rate": 0.00028,
+    "raw_count": 55,
+    "real_count": 50
+  },
+  {
+    "name": "Raboot",
+    "usage_rate": 0.00028,
+    "raw_count": 32,
+    "real_count": 23
+  },
+  {
+    "name": "Chimchar",
+    "usage_rate": 0.00027,
+    "raw_count": 21,
+    "real_count": 19
+  },
+  {
+    "name": "Mienfoo",
+    "usage_rate": 0.00026,
+    "raw_count": 31,
+    "real_count": 21
+  },
+  {
+    "name": "Shroodle",
+    "usage_rate": 0.00026,
+    "raw_count": 30,
+    "real_count": 23
+  },
+  {
+    "name": "Sandshrew",
+    "usage_rate": 0.00026,
+    "raw_count": 72,
+    "real_count": 65
+  },
+  {
+    "name": "Scorbunny",
+    "usage_rate": 0.00025,
+    "raw_count": 33,
+    "real_count": 29
+  },
+  {
+    "name": "Turtwig",
+    "usage_rate": 0.00025,
+    "raw_count": 29,
+    "real_count": 23
+  },
+  {
+    "name": "Larvesta",
+    "usage_rate": 0.00024,
+    "raw_count": 44,
+    "real_count": 30
+  },
+  {
+    "name": "Bellsprout",
+    "usage_rate": 0.00024,
+    "raw_count": 39,
+    "real_count": 32
+  },
+  {
+    "name": "Finizen",
+    "usage_rate": 0.00022,
+    "raw_count": 18,
+    "real_count": 16
+  },
+  {
+    "name": "Dewott",
+    "usage_rate": 0.00021,
+    "raw_count": 44,
+    "real_count": 31
+  },
+  {
+    "name": "Sandshrew-Alola",
+    "usage_rate": 0.00021,
+    "raw_count": 25,
+    "real_count": 24
+  },
+  {
+    "name": "Poltchageist",
+    "usage_rate": 0.00021,
+    "raw_count": 75,
+    "real_count": 53
+  },
+  {
+    "name": "Quilladin",
+    "usage_rate": 0.00021,
+    "raw_count": 48,
+    "real_count": 43
+  },
+  {
+    "name": "Foongus",
+    "usage_rate": 0.0002,
+    "raw_count": 44,
+    "real_count": 36
+  },
+  {
+    "name": "Oshawott",
+    "usage_rate": 0.00019,
+    "raw_count": 20,
+    "real_count": 17
+  },
+  {
+    "name": "Bronzor",
+    "usage_rate": 0.00019,
+    "raw_count": 43,
+    "real_count": 40
+  },
+  {
+    "name": "Cubchoo",
+    "usage_rate": 0.00018,
+    "raw_count": 33,
+    "real_count": 24
+  },
+  {
+    "name": "Grimer-Alola",
+    "usage_rate": 0.00017,
+    "raw_count": 15,
+    "real_count": 14
+  },
+  {
+    "name": "Cacnea",
+    "usage_rate": 0.00017,
+    "raw_count": 32,
+    "real_count": 21
+  },
+  {
+    "name": "Corvisquire",
+    "usage_rate": 0.00017,
+    "raw_count": 24,
+    "real_count": 16
+  },
+  {
+    "name": "Gulpin",
+    "usage_rate": 0.00017,
+    "raw_count": 62,
+    "real_count": 48
+  },
+  {
+    "name": "Bounsweet",
+    "usage_rate": 0.00017,
+    "raw_count": 46,
+    "real_count": 24
+  },
+  {
+    "name": "Litleo",
+    "usage_rate": 0.00017,
+    "raw_count": 28,
+    "real_count": 20
+  },
+  {
+    "name": "Combee",
+    "usage_rate": 0.00016,
+    "raw_count": 21,
+    "real_count": 14
+  },
+  {
+    "name": "Impidimp",
+    "usage_rate": 0.00016,
+    "raw_count": 38,
+    "real_count": 36
+  },
+  {
+    "name": "Piplup",
+    "usage_rate": 0.00016,
+    "raw_count": 21,
+    "real_count": 16
+  },
+  {
+    "name": "Tinkatink",
+    "usage_rate": 0.00015,
+    "raw_count": 15,
+    "real_count": 14
+  },
+  {
+    "name": "Gothorita",
+    "usage_rate": 0.00015,
+    "raw_count": 11,
+    "real_count": 9
+  },
+  {
+    "name": "Fletchling",
+    "usage_rate": 0.00014,
+    "raw_count": 11,
+    "real_count": 9
+  },
+  {
+    "name": "Rookidee",
+    "usage_rate": 0.00014,
+    "raw_count": 100,
+    "real_count": 91
+  },
+  {
+    "name": "Yanma",
+    "usage_rate": 0.00014,
+    "raw_count": 78,
+    "real_count": 54
+  },
+  {
+    "name": "Noibat",
+    "usage_rate": 0.00014,
+    "raw_count": 13,
+    "real_count": 6
+  },
+  {
+    "name": "Nuzleaf",
+    "usage_rate": 0.00014,
+    "raw_count": 32,
+    "real_count": 30
+  },
+  {
+    "name": "Yungoos",
+    "usage_rate": 0.00013,
+    "raw_count": 11,
+    "real_count": 9
+  },
+  {
+    "name": "Poochyena",
+    "usage_rate": 0.00013,
+    "raw_count": 17,
+    "real_count": 14
+  },
+  {
+    "name": "Kricketot",
+    "usage_rate": 0.00013,
+    "raw_count": 8,
+    "real_count": 6
+  },
+  {
+    "name": "Applin",
+    "usage_rate": 0.00013,
+    "raw_count": 31,
+    "real_count": 21
+  },
+  {
+    "name": "Spoink",
+    "usage_rate": 0.00013,
+    "raw_count": 8,
+    "real_count": 7
+  },
+  {
+    "name": "Sentret",
+    "usage_rate": 0.00013,
+    "raw_count": 32,
+    "real_count": 23
+  },
+  {
+    "name": "Crabrawler",
+    "usage_rate": 0.00012,
+    "raw_count": 23,
+    "real_count": 21
+  },
+  {
+    "name": "Froakie",
+    "usage_rate": 0.00012,
+    "raw_count": 8,
+    "real_count": 8
+  },
+  {
+    "name": "Floette",
+    "usage_rate": 0.00012,
+    "raw_count": 29,
+    "real_count": 9
+  },
+  {
+    "name": "Grubbin",
+    "usage_rate": 0.00012,
+    "raw_count": 9,
+    "real_count": 9
+  },
+  {
+    "name": "Quilava",
+    "usage_rate": 0.00012,
+    "raw_count": 26,
+    "real_count": 18
+  },
+  {
+    "name": "Sliggoo",
+    "usage_rate": 0.00012,
+    "raw_count": 28,
+    "real_count": 18
+  },
+  {
+    "name": "Snover",
+    "usage_rate": 0.00011,
+    "raw_count": 13,
+    "real_count": 9
+  },
+  {
+    "name": "Growlithe-Hisui",
+    "usage_rate": 0.00011,
+    "raw_count": 28,
+    "real_count": 17
+  },
+  {
+    "name": "Capsakid",
+    "usage_rate": 0.00011,
+    "raw_count": 20,
+    "real_count": 17
+  },
+  {
+    "name": "Pawmi",
+    "usage_rate": 0.00011,
+    "raw_count": 39,
+    "real_count": 36
+  },
+  {
+    "name": "Grimer",
+    "usage_rate": 0.00011,
+    "raw_count": 34,
+    "real_count": 21
+  },
+  {
+    "name": "Tynamo",
+    "usage_rate": 0.00011,
+    "raw_count": 14,
+    "real_count": 11
+  },
+  {
+    "name": "Meowth-Galar",
+    "usage_rate": 0.0001,
+    "raw_count": 55,
+    "real_count": 30
+  },
+  {
+    "name": "Tadbulb",
+    "usage_rate": 0.0001,
+    "raw_count": 25,
+    "real_count": 23
+  },
+  {
+    "name": "Growlithe",
+    "usage_rate": 0.0001,
+    "raw_count": 10,
+    "real_count": 8
+  },
+  {
+    "name": "Slakoth",
+    "usage_rate": 0.0001,
+    "raw_count": 7,
+    "real_count": 6
+  },
+  {
+    "name": "Frigibax",
+    "usage_rate": 0.0001,
+    "raw_count": 21,
+    "real_count": 20
+  },
+  {
+    "name": "Sewaddle",
+    "usage_rate": 0.0001,
+    "raw_count": 15,
+    "real_count": 13
+  },
+  {
+    "name": "Clauncher",
+    "usage_rate": 9e-05,
+    "raw_count": 5,
+    "real_count": 4
+  },
+  {
+    "name": "Nymble",
+    "usage_rate": 9e-05,
+    "raw_count": 21,
+    "real_count": 15
+  },
+  {
+    "name": "Shinx",
+    "usage_rate": 9e-05,
+    "raw_count": 14,
+    "real_count": 9
+  },
+  {
+    "name": "Cyndaquil",
+    "usage_rate": 9e-05,
+    "raw_count": 11,
+    "real_count": 9
+  },
+  {
+    "name": "Mankey",
+    "usage_rate": 8e-05,
+    "raw_count": 16,
+    "real_count": 12
+  },
+  {
+    "name": "Drizzile",
+    "usage_rate": 8e-05,
+    "raw_count": 8,
+    "real_count": 8
+  },
+  {
+    "name": "Mareep",
+    "usage_rate": 8e-05,
+    "raw_count": 11,
+    "real_count": 7
+  },
+  {
+    "name": "Fidough",
+    "usage_rate": 8e-05,
+    "raw_count": 7,
+    "real_count": 6
+  },
+  {
+    "name": "Maschiff",
+    "usage_rate": 8e-05,
+    "raw_count": 20,
+    "real_count": 11
+  },
+  {
+    "name": "Smoliv",
+    "usage_rate": 8e-05,
+    "raw_count": 12,
+    "real_count": 11
+  },
+  {
+    "name": "Lombre",
+    "usage_rate": 7e-05,
+    "raw_count": 20,
+    "real_count": 17
+  },
+  {
+    "name": "Hoothoot",
+    "usage_rate": 7e-05,
+    "raw_count": 11,
+    "real_count": 11
+  },
+  {
+    "name": "Sandygast",
+    "usage_rate": 7e-05,
+    "raw_count": 25,
+    "real_count": 23
+  },
+  {
+    "name": "Jangmo-o",
+    "usage_rate": 7e-05,
+    "raw_count": 9,
+    "real_count": 6
+  },
+  {
+    "name": "Bramblin",
+    "usage_rate": 7e-05,
+    "raw_count": 18,
+    "real_count": 11
+  },
+  {
+    "name": "Spewpa",
+    "usage_rate": 7e-05,
+    "raw_count": 11,
+    "real_count": 10
+  },
+  {
+    "name": "Flaaffy",
+    "usage_rate": 6e-05,
+    "raw_count": 11,
+    "real_count": 9
+  },
+  {
+    "name": "Fennekin",
+    "usage_rate": 6e-05,
+    "raw_count": 5,
+    "real_count": 4
+  },
+  {
+    "name": "Shuppet",
+    "usage_rate": 6e-05,
+    "raw_count": 11,
+    "real_count": 6
+  },
+  {
+    "name": "Flabebe",
+    "usage_rate": 6e-05,
+    "raw_count": 20,
+    "real_count": 12
+  },
+  {
+    "name": "Silicobra",
+    "usage_rate": 6e-05,
+    "raw_count": 5,
+    "real_count": 5
+  },
+  {
+    "name": "Snorunt",
+    "usage_rate": 5e-05,
+    "raw_count": 6,
+    "real_count": 5
+  },
+  {
+    "name": "Gimmighoul-Roaming",
+    "usage_rate": 5e-05,
+    "raw_count": 15,
+    "real_count": 11
+  },
+  {
+    "name": "Chewtle",
+    "usage_rate": 5e-05,
+    "raw_count": 7,
+    "real_count": 6
+  },
+  {
+    "name": "Steenee",
+    "usage_rate": 5e-05,
+    "raw_count": 6,
+    "real_count": 5
+  },
+  {
+    "name": "Sandile",
+    "usage_rate": 5e-05,
+    "raw_count": 4,
+    "real_count": 3
+  },
+  {
+    "name": "Diglett-Alola",
+    "usage_rate": 5e-05,
+    "raw_count": 11,
+    "real_count": 8
+  },
+  {
+    "name": "Phantump",
+    "usage_rate": 5e-05,
+    "raw_count": 72,
+    "real_count": 47
+  },
+  {
+    "name": "Dreepy",
+    "usage_rate": 5e-05,
+    "raw_count": 6,
+    "real_count": 5
+  },
+  {
+    "name": "Sobble",
+    "usage_rate": 5e-05,
+    "raw_count": 8,
+    "real_count": 7
+  },
+  {
+    "name": "Lotad",
+    "usage_rate": 5e-05,
+    "raw_count": 20,
+    "real_count": 12
+  },
+  {
+    "name": "Deino",
+    "usage_rate": 4e-05,
+    "raw_count": 11,
+    "real_count": 9
+  },
+  {
+    "name": "Skrelp",
+    "usage_rate": 4e-05,
+    "raw_count": 3,
+    "real_count": 3
+  },
+  {
+    "name": "Swablu",
+    "usage_rate": 3e-05,
+    "raw_count": 4,
+    "real_count": 4
+  },
+  {
+    "name": "Chespin",
+    "usage_rate": 3e-05,
+    "raw_count": 9,
+    "real_count": 8
+  },
+  {
+    "name": "Luxio",
+    "usage_rate": 3e-05,
+    "raw_count": 4,
+    "real_count": 2
+  },
+  {
+    "name": "Rellor",
+    "usage_rate": 3e-05,
+    "raw_count": 22,
+    "real_count": 19
+  },
+  {
+    "name": "Gimmighoul",
+    "usage_rate": 2e-05,
+    "raw_count": 16,
+    "real_count": 10
+  },
+  {
+    "name": "Barboach",
+    "usage_rate": 2e-05,
+    "raw_count": 11,
+    "real_count": 8
+  },
+  {
+    "name": "Venonat",
+    "usage_rate": 2e-05,
+    "raw_count": 30,
+    "real_count": 30
+  },
+  {
+    "name": "Slowpoke-Galar",
+    "usage_rate": 2e-05,
+    "raw_count": 2,
+    "real_count": 1
+  },
+  {
+    "name": "Timburr",
+    "usage_rate": 2e-05,
+    "raw_count": 6,
+    "real_count": 6
+  },
+  {
+    "name": "Petilil",
+    "usage_rate": 2e-05,
+    "raw_count": 6,
+    "real_count": 6
+  },
+  {
+    "name": "Chingling",
+    "usage_rate": 2e-05,
+    "raw_count": 4,
+    "real_count": 2
+  },
+  {
+    "name": "Gothita",
+    "usage_rate": 1e-05,
+    "raw_count": 34,
+    "real_count": 30
+  },
+  {
+    "name": "Deerling",
+    "usage_rate": 1e-05,
+    "raw_count": 9,
+    "real_count": 8
+  },
+  {
+    "name": "Fomantis",
+    "usage_rate": 0.0,
+    "raw_count": 7,
+    "real_count": 6
+  },
+  {
+    "name": "Goomy",
+    "usage_rate": 0.0,
+    "raw_count": 2,
+    "real_count": 2
+  },
+  {
+    "name": "Finneon",
+    "usage_rate": 0.0,
+    "raw_count": 2,
+    "real_count": 1
+  },
+  {
+    "name": "Skiddo",
+    "usage_rate": 0.0,
+    "raw_count": 1,
+    "real_count": 1
+  },
+  {
+    "name": "Bergmite",
+    "usage_rate": 0.0,
+    "raw_count": 6,
+    "real_count": 5
+  },
+  {
+    "name": "Larvitar",
+    "usage_rate": 0.0,
+    "raw_count": 1,
+    "real_count": 1
+  },
+  {
+    "name": "Makuhita",
+    "usage_rate": 0.0,
+    "raw_count": 3,
+    "real_count": 2
+  }
+]
