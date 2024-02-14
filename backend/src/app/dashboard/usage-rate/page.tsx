@@ -35,7 +35,7 @@ export default function UsageRate() {
   return (
     <Container size="lg">
       <h1>Usage Rate</h1>
-      <h2>Top 10 Most Used Pokemon</h2>
+      <h2>Top 10 Most Used Pokemon in January 2024</h2>
       <UsageRateChart data={usageRateData} />
     </Container>
   );
