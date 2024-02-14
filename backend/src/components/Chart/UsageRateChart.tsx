@@ -1,7 +1,13 @@
 import { BarChart } from "@mantine/charts";
 
+export interface UsageRateData {
+  pokemon: string;
+  InBattle: number;
+  Unused: number;
+}
+
 interface UsageRateChartProps {
-  data: { pokemon: string; usage: number }[];
+  data: UsageRateData[];
 }
 
 export function UsageRateChart({ data }: UsageRateChartProps) {
@@ -13,7 +19,10 @@ export function UsageRateChart({ data }: UsageRateChartProps) {
       type="stacked"
       orientation="vertical"
       yAxisProps={{ width: 80 }}
-      series={[{ name: "usage", color: "blue" }]}
+      series={[
+        { name: "InBattle", color: "blue.6" },
+        { name: "Unused", color: "gray.6" },
+      ]}
     />
   );
 }
