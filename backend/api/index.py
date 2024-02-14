@@ -101,6 +101,11 @@ def api_common_movesets():
     )
 
 
+@app.route("/api/test/home")
+def api_index():
+    return "Test API"
+
+
 @app.route("/api/test/teambuilder", methods=["GET"])
 def api_test_teambuilder():
     return [
