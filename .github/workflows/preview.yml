@@ -30,4 +30,4 @@ jobs:
           cp -r backend/public backend/standalone/public
           cp -r backend/.next/static backend/standalone/.next/static
       - name: Deploy Project Artifacts to Vercel
-        run: vercel deploy backend/.next/standalone --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel deploy backend/.next/standalone --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
