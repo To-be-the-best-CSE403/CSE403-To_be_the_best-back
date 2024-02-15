@@ -26,6 +26,9 @@ jobs:
       - name: Remove node_modules From .vercel/output
         run: |
           ls
-          rm -rf .vercel/output/node_modules
+          cd backend
+          ls
+          cd .vercel/output
+          rm -rf node_modules
       - name: Deploy Project Artifacts to Vercel
         run: vercel deploy --force --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
