@@ -23,11 +23,5 @@ jobs:
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
       - name: Build Project Artifacts
         run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
-      - name: Copy Public and Static Folders
-        run: |
-          mkdir -p backend/standalone/public
-          mkdir -p backend/standalone/.next/static
-          cp -r backend/public backend/standalone/public
-          cp -r backend/.next/static backend/standalone/.next/static
       - name: Deploy Project Artifacts to Vercel
-        run: vercel deploy backend/.next/standalone --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel deploy --force --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
