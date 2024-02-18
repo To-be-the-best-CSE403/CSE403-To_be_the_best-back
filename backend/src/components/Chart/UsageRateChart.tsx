@@ -17,6 +17,7 @@ export function UsageRateChart({ data }: UsageRateChartProps) {
       data={data}
       dataKey="pokemon"
       type="stacked"
+      withTooltip={false}
       orientation="vertical"
       yAxisProps={{ width: 80 }}
       series={[
