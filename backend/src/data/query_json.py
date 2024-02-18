@@ -1,6 +1,7 @@
+import json
+import os
 from collections import defaultdict
-from src.data.constants import DEFAULT_DATE, DEFAULT_TIER, DEFAULT_BASELINE
-from src.data.usage_parser import get_usage
+from src.data.constants import DATA_DIR, DEFAULT_DATE, DEFAULT_TIER, DEFAULT_BASELINE
 
 
 def get_top_usage(
@@ -16,8 +17,11 @@ def get_top_usage(
     :param tier: The tier of the usage data
     :param baseline: The baseline of the usage data
     """
-    usage = get_usage(date, tier, baseline)
-    top_usage = usage[:top_n]
+    data_category = "usage"
+    path = os.path.join(DATA_DIR, data_category, f"{date}_{tier}-{baseline}.json")
+    with open(path) as file:
+        usage = json.load(file)
+        top_usage = usage[:top_n]
 
     return top_usage
 
@@ -37,11 +41,17 @@ def get_timeline_usage(
     :param tier: The tier of the usage data
     :param baseline: The baseline of the usage data
     """
+    data_category = "usage"
     usage_data = defaultdict(list)
 
     for _ in range(duration):
         current_date = start_date
-        usage = get_usage(current_date, tier, baseline)
+        path = os.path.join(
+            DATA_DIR, data_category, f"{current_date}_{tier}-{baseline}.json"
+        )
+
+        with open(path) as file:
+            usage = json.load(file)
 
         usage_pokemon = [entry for entry in usage if entry["name"] in pokemons]
         for entry in usage_pokemon:
