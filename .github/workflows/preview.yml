@@ -12,20 +12,10 @@ jobs:
     environment: preview
     steps:
       - uses: actions/checkout@v2
-      - name: Setup Python3.9
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.9"
-          cache: "pip" # caching pip dependencies
-      - name: Install Python Dependencies
-        run: |
-          python3.9 -m venv .venv
-          source .venv/bin/activate
-          pip install -r requirements.txt
       - name: Run Tests
         run: |
           cd backend
-          source ../.venv/bin/activate
+          pip install -r requirements.txt
           npm run test
       - name: Install Vercel CLI
         if: success()
