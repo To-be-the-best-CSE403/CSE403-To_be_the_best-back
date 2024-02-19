@@ -1,8 +1,7 @@
 from flask import Blueprint, request, jsonify
+from src.constants import DEFAULT_DATE, DEFAULT_TIER, DEFAULT_BASELINE
 from src.api.teambuilder.teambuilder_api import get_team
-from src.data.constants import DEFAULT_DATE, DEFAULT_TIER, DEFAULT_BASELINE
-from src.data.query_json import get_top_usage, get_timeline_usage
-
+from src.api.endpoints import get_usage_rate, get_usage_top, get_usage_timeline
 
 views = Blueprint("views", __name__)
 
@@ -24,9 +23,35 @@ def api_teambuilder():
 @views.route("/usage-rate", methods=["GET"])
 def api_usage_rate():
     """
+    API endpoint to get the usage rate for a given Pokemon, date, tier, and baseline
+    Example usage:
+    /api/usage-rate?
+    pokemon=GreatTusk
+    """
+    pokemon = request.args.get("pokemon")
+    if not pokemon:
+        return jsonify({"error": 'Missing "pokemon" parameter'}), 400
+
+    date = request.args.get("date", DEFAULT_DATE)
+    tier = request.args.get("tier", DEFAULT_TIER)
+    baseline = request.args.get("baseline", DEFAULT_BASELINE)
+
+    usage_rate = get_usage_rate(pokemon, date, tier, int(baseline))
+    if usage_rate:
+        return jsonify(usage_rate)
+    else:
+        return (
+            jsonify({"error": f"No usage found for {pokemon}, {date}, {tier}"}),
+            404,
+        )
+
+
+@views.route("/usage-top", methods=["GET"])
+def api_usage_top():
+    """
     API endpoint to get the top n Pokemon usage rates for a given date, tier, and baseline
     Example usage:
-    /usage-rate?
+    /api/usage-top?
     n=10&
     date=2023-01&
     tier=gen9ou&
@@ -40,10 +65,10 @@ def api_usage_rate():
     tier = request.args.get("tier", DEFAULT_TIER)
     baseline = request.args.get("baseline", DEFAULT_BASELINE)
 
-    try:
-        top_usage = get_top_usage(int(n), date, tier, int(baseline))
+    top_usage = get_usage_top(int(n), date, tier, int(baseline))
+    if top_usage:
         return jsonify(top_usage)
-    except FileNotFoundError:
+    else:
         return jsonify({"error": f"No usage found for {date}, {tier}, {baseline}"}), 404
 
 
@@ -52,7 +77,7 @@ def api_usage_timeline():
     """
     API endpoint to get the usage rates for a given set of Pokemon over a specified duration starting from a given date
     Example usage:
-    /usage-timeline?
+    /api/usage-timeline?
     pokemons=GreatTusk&
     pokemons=Kingambit&
     start_date=2023-01&
@@ -69,16 +94,12 @@ def api_usage_timeline():
     if not start_date:
         return jsonify({"error": 'Missing "start_date" parameter'}), 400
 
-    try:
-        usage = get_timeline_usage(
-            pokemons,
-            start_date,
-            int(duration),
-            tier,
-            int(baseline),
-        )
-        return jsonify(usage)
-    except FileNotFoundError:
+    usage_timeline = get_usage_timeline(
+        pokemons, start_date, int(duration), tier, int(baseline)
+    )
+    if usage_timeline:
+        return jsonify(usage_timeline)
+    else:
         return (
             jsonify({"error": f"No usage found for {start_date}, {duration}, {tier}"}),
             404,

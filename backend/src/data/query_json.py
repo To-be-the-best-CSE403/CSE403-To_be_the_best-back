@@ -1,7 +1,7 @@
 import json
 import os
 from collections import defaultdict
-from src.data.constants import DEFAULT_DATE, DEFAULT_TIER, DEFAULT_BASELINE
+from src.constants import DEFAULT_DATE, DEFAULT_TIER, DEFAULT_BASELINE
 from src.data.usage_parser import get_usage
 
 
