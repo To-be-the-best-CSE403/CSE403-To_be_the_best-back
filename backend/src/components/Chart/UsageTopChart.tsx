@@ -1,23 +1,22 @@
 import { BarChart } from "@mantine/charts";
 
-export interface UsageRateData {
+export interface UsageTopData {
   pokemon: string;
   InBattle: number;
   Unused: number;
 }
 
-interface UsageRateChartProps {
-  data: UsageRateData[];
+interface UsageTopChartProps {
+  data: UsageTopData[];
 }
 
-export function UsageRateChart({ data }: UsageRateChartProps) {
+export function UsageTopChart({ data }: UsageTopChartProps) {
   return (
     <BarChart
       h={300}
       data={data}
       dataKey="pokemon"
       type="stacked"
-      withTooltip={false}
       orientation="vertical"
       yAxisProps={{ width: 80 }}
       series={[

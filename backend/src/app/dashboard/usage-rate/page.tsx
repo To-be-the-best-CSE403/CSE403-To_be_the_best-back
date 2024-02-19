@@ -2,18 +2,15 @@
 
 import { useEffect, useState } from "react";
 import { Container } from "@mantine/core";
-import {
-  UsageRateChart,
-  UsageRateData,
-} from "@/components/Chart/UsageRateChart";
+import { UsageTopChart, UsageTopData } from "@/components/Chart/UsageTopChart";
 import { API_ENDPOINTS } from "@/api";
 
 export default function UsageRate() {
-  const [usageRateData, setUsageRateData] = useState<UsageRateData[]>([]);
+  const [usageTopData, setUsageTopData] = useState<UsageTopData[]>([]);
   const n = 10;
 
   useEffect(() => {
-    const fetchUsageRateData = async () => {
+    const fetchUsageTopData = async () => {
       try {
         const response = await fetch(`${API_ENDPOINTS.USAGE_TOP}?n=${n}`);
         const data = await response.json();
@@ -23,19 +20,19 @@ export default function UsageRate() {
           Unused: d.raw_count - d.real_count,
         }));
         console.log("usage", usage);
-        setUsageRateData(usage);
+        setUsageTopData(usage);
       } catch (error) {
-        console.error("Error fetching usage rate data:", error);
+        console.error("Error fetching usage top data:", error);
       }
     };
-    fetchUsageRateData();
+    fetchUsageTopData();
   }, [n]);
 
   return (
     <Container size="lg">
       <h1>Usage Rate</h1>
       <h2>Top 10 Most Used Pokemon in January 2024</h2>
-      <UsageRateChart data={usageRateData} />
+      <UsageTopChart data={usageTopData} />
     </Container>
   );
 }
