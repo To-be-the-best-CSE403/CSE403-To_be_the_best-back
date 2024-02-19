@@ -6,6 +6,7 @@ import {
   UsageRateChart,
   UsageRateData,
 } from "@/components/Chart/UsageRateChart";
+import { API_ENDPOINTS } from "@/api";
 
 export default function UsageRate() {
   const [usageRateData, setUsageRateData] = useState<UsageRateData[]>([]);
@@ -14,9 +15,7 @@ export default function UsageRate() {
   useEffect(() => {
     const fetchUsageRateData = async () => {
       try {
-        const response = await fetch(
-          `https://tobethebest.vercel.app/api/usage-rate?n=${n}`
-        );
+        const response = await fetch(`${API_ENDPOINTS.USAGE_TOP}?n=${n}`);
         const data = await response.json();
         const usage = data.map((d: any) => ({
           pokemon: d.name,
