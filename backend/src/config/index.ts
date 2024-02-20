@@ -11,6 +11,10 @@ export const navLinks: NavItem[] = [
 		initiallyOpened: true,
 		links: [
 			{
+				label: 'Overview',
+				link: '/dashboard/teambuilder',
+			},
+			{
 				label: 'Archetype',
 				link: '/dashboard/teambuilder/archetype',
 			},
