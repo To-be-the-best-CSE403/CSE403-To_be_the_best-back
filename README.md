@@ -1,48 +1,73 @@
-# ToBeTheBest Backend Repository
+# ToBeTheBest Website For Pokemon Showdown
+
+[![Vercel Production Deployment](https://github.com/To-be-the-best-CSE403/CSE403-To_be_the_best-back/actions/workflows/production.yml/badge.svg)](https://github.com/To-be-the-best-CSE403/CSE403-To_be_the_best-back/actions/workflows/production.yml)
+
+Welcome to the website repository for the [ToBeTheBest Extension](https://github.com/To-be-the-best-CSE403/CSE403-To_be_the_best-front) designed for Pokémon Showdown. Our website serves as a crucial component of the ToBeTheBest project, providing essential functionalities such as data visualization and API support for the extension. This repository contains the code for the backend of the website, which is built using Python Flask and Next.js.
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
 - [Goals](#goals)
 - [Repository Layout](#repository-layout)
+- [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [For Developers](#for-developers)
+  - [Developing Locally](#developing-locally)
+  - [Building](#building)
+  - [Deploying](#deploying)
+- [Issues](#issues-feature-requests-and-contributions)
+- [Contributing](#issues-feature-requests-and-contributions)
 - [License](#license)
-
-## Project Overview
-
-To Be the Best is a web browser extension that is used for Pokémon Showdown, an online Pokémon battle simulator,
-to help users build teams and find movesets as well as provide recommendations for moves to use in battle.
-This feature will help those who are new to Pokémon Showdown learn the mechanics of the game in addition to helping
-those who are more experienced develop their skills, whether they are a casual or competitive player.
 
 ## Goals
 
-The goals of the backend configuration of To Be the Best is to:
+The objective of this repository is to develop the backend components of the extension. The website's functionalities are divided into two main components:
 
-1. Scrap Pokémon information and Pokémon battle information from websites to populate the database used in the web extension
-2. Send information and data calculations from the database and backend to the frontend of the application
+1. Database: Utilize web scraping techniques to gather Pokémon information and battle data from various sources. This data is then used to populate the database utilized by the web extension.
+
+2. API: Develop an API to facilitate communication between the database and the frontend of the application. This API will handle data calculations and serve information to the frontend for user interaction.
 
 ## Repository Layout
 
 The layout of the repository is as follows:
 
-- This README.md file
-- The `.github/workflows/` directory contains the files needed for GitHub Actions and its continuous integration features.
-- The `.vscode/` directory contains the settings for a Visual Code Studio set up.
-- The `backend/` directory which will contain the code used to handle and pass data from the database to the frontend.
-- The `database/` directory which will contain the code to scrape information from websites and handle scraped information that will be stored in the database.
+<details>
+<summary>backend</summary>
 
-## Website
+- **api**: API endpoints serving data to the frontend.
+  - index.py: Entry point for the API.
+  - views.py: Contains the API routes.
+  - test_views.py: Contains mock API routes for testing.
+- **src**: Next.js App source code.
+  - **api**: API logic and calculations.
+  - **app**: Frontend pages for the website.
+  - **components**: Reusable components for the website.
+  - **config**: Configuration files for the website.
+  - **data**: Data collection and processing.
+- **tests**: Tests for the backend.
+</details>
 
-### Requirements
+<details>
+<summary>database</summary>
+
+- **webscraper.py**: Python script for web scraping data for the database.
+
+</details>
+
+<details>
+<summary>.github</summary>
+
+- **workflows**: GitHub Actions and continuous integration.
+- **ISSUE_TEMPLATE**: Templates for creating issues.
+</details>
+
+## Requirements
 
 - Python 3.9
 - Node.js 18.x
 - Vercel CLI
 
-### Installation
+## Installation
 
 You can clone this repository with the following command:
 
@@ -64,6 +89,8 @@ The website code is located in the `backend` directory. Install the node modules
 cd backend
 npm install
 ```
+
+## For Developers
 
 ### Developing Locally
 
@@ -109,58 +136,12 @@ module.exports = {
 };
 ```
 
-## Extension
+## Issues, feature requests and contributions
 
-GitHub: [ToBeTheBest Extension](https://github.com/To-be-the-best-CSE403/CSE403-To_be_the_best-front)
-
-### Installation
-
-- **Step 1**: Install `ToBeTheBest` Extension
-
-  - **Firefox**: [Latest Release on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tobethebest/).
-  - **Chrome**: [Latest Release on Github](https://github.com/To-be-the-best-CSE403/CSE403-To_be_the_best-front/releases/).
-    - Download `tobethebest-chrome.zip` and unzip the file.
-    - Go to `chrome://extensions/` and enable "Developer mode" in the top right corner.
-    - Click `Load unpacked` and select the unzipped folder.
-
-- **Step 2**: Go to [Pokemon Showdown](https://play.pokemonshowdown.com/) and activate the extension.
-
-  - **Firefox**: Go to extension setting and choose `Always Allow on play.pokemonshowdown.com`.
-  - **Chrome**: Go to extension setting and allow the extension for `play.pokemonshowdown.com`.
-
-## Usage
-
-The purpose of this repository is to serve as a guide for how data is stored and communicated between the database and the frontend of the extension.
-The user is not intended to manipulate the code in this repository.
-
-## Contributing
-
-If you would like to contribute to this project, please contact one of the owners. Any help would be appreciated!
+- If you come across a problem with the extension, please open an [issue](https://github.com/To-be-the-best-CSE403/CSE403-To_be_the_best-back/issues/new/choose) and choose the bug report template.
+- If you have a feature request, please open an [issue](https://github.com/To-be-the-best-CSE403/CSE403-To_be_the_best-back/issues/new/choose) with the feature request template.
+- Contributions are always welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
 ## License
 
-MIT License
-
-Copyright (c) [2024] [To Be The Best]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-```
-
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
