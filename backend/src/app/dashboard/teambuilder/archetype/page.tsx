@@ -1,7 +1,12 @@
+"use client";
+
+import React from "react";
+import TeambuilderArchetypeMdx from "./teambuilder-archetype.mdx";
+
 export default function TeambuilderArchetype() {
   return (
     <div>
-      <h1>Teambuilder Archetype</h1>
+      <TeambuilderArchetypeMdx />
     </div>
   );
 }

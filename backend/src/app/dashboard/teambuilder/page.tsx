@@ -1,11 +1,12 @@
 "use client";
 
 import React from "react";
+import TeambuilderMdx from "./teambuilder.mdx";
 
 export default function Teambuilder() {
   return (
     <div>
-      <h1>Teambuilder</h1>
+      <TeambuilderMdx />
     </div>
   );
 }
