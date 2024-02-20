@@ -1,0 +1,44 @@
+import { Layout } from "@/components/Mdx/MdxLayout";
+import { CodeHighlight } from "@mantine/code-highlight";
+import { UsageRateEndpoint } from "@/components/Wiki/UsageRateEndpoint";
+
+export default Layout();
+
+# Usage Rate API
+
+## Usage Rate
+
+### API Endpoint
+
+<UsageRateEndpoint />
+
+### Request
+
+Using Javascript:
+
+<CodeHighlight
+  language="javascript"
+  code={`
+const url = "https://tobethebest.vercel.app/api/usage-rate?pokemon=GreatTusk";
+fetch(url)
+  .then((res) => res.json())
+  .then((data) => console.log(data));
+`}
+/>
+
+### Response
+
+<CodeHighlight
+  language="json"
+  code={`
+{
+    "raw_count": 981696,
+    "real_count": 753970,
+    "usage_rate": 30.13411
+}
+`}
+/>
+
+## Usage Top
+
+## Usage Timeline

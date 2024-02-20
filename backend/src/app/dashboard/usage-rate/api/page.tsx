@@ -1,7 +1,12 @@
+"use client";
+
+import React from "react";
+import UsageRateAPIMdx from "./usage-rate-api.mdx";
+
 export default function UsageRateAPI() {
   return (
     <div>
-      <h1>Usage Rate API</h1>
+      <UsageRateAPIMdx />
     </div>
   );
 }
