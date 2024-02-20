@@ -14,9 +14,10 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@mantine/charts": "^7.5.2",
-    "@mantine/core": "^7.5.0",
-    "@mantine/hooks": "^7.5.0",
+    "@mantine/charts": "^7.5.3",
+    "@mantine/code-highlight": "^7.5.3",
+    "@mantine/core": "^7.5.3",
+    "@mantine/hooks": "^7.5.3",
     "@mdx-js/loader": "^3.0.0",
     "@mdx-js/react": "^3.0.0",
     "@next/mdx": "^14.1.0",
@@ -28,15 +29,15 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "typescript": "5.0.4",
+    "@types/mdx": "^2.0.11",
+    "@types/node": "20.1.4",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
     "postcss": "^8.4.33",
     "postcss-preset-mantine": "^1.12.3",
     "postcss-simple-vars": "^7.0.1",
-    "@types/mdx": "^2.0.11",
-    "@types/node": "20.1.4",
-    "@types/react": "18.2.6",
-    "@types/react-dom": "18.2.4"
+    "typescript": "5.0.4"
   }
 }
