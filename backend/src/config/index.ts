@@ -3,7 +3,7 @@ import { NavItem } from '@/types/nav-item';
 
 export const navLinks: NavItem[] = [
 	{ label: 'Getting Started', icon: IconCompass, link: '/dashboard/getting-started' },
-	//{ label: 'Dashboard', icon: IconDashboard, link: '/dashboard' },
+	{ label: 'Dashboard', icon: IconDashboard, link: '/dashboard' },
 
 	{
 		label: 'Team Builder',
@@ -11,13 +11,17 @@ export const navLinks: NavItem[] = [
 		initiallyOpened: true,
 		links: [
 			{
-				label: 'Best Team',
-				link: '/dashboard/best-team',
+				label: 'Overview',
+				link: '/dashboard/teambuilder',
 			},
 			{
-				label: 'Archetype Team',
-				link: '/dashboard/archetype-team',
+				label: 'Archetype',
+				link: '/dashboard/teambuilder/archetype',
 			},
+			{
+				label: 'API',
+				link: '/dashboard/teambuilder/api',
+			}
 		],
 	},
 	{
@@ -26,9 +30,13 @@ export const navLinks: NavItem[] = [
 		initiallyOpened: true,
 		links: [
 			{
-				label: 'API',
-				link: '/api/usage-rate',
+				label: 'Overview',
+				link: '/dashboard/usage-rate',
 			},
+			{
+				label: 'API',
+				link: '/dashboard/usage-rate/api',
+			}
 		],
 	},
 	{
@@ -37,9 +45,13 @@ export const navLinks: NavItem[] = [
 		initiallyOpened: true,
 		links: [
 			{
-				label: 'API',
-				link: '/api/common-movesets',
+				label: 'Overview',
+				link: '/dashboard/common-movesets',
 			},
+			{
+				label: 'API',
+				link: '/dashboard/common-movesets/api',
+			}
 		],
 	},
 ];

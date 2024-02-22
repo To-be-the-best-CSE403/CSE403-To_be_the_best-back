@@ -7,8 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Registering production endpoints
-app.register_blueprint(views, url_prefix='/api')
+app.register_blueprint(views, url_prefix="/api")
 
 # Registering test endpoints
-app.register_blueprint(test_views, url_prefix='/api/test')
-
+app.register_blueprint(test_views, url_prefix="/api/test")

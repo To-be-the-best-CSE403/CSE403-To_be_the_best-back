@@ -1,0 +1,55 @@
+import { Layout } from "@/components/Mdx/MdxLayout";
+import { CodeHighlight } from "@mantine/code-highlight";
+import { ArchetypeEndpoint } from "@/components/Wiki/ArchetypeEndpoint";
+
+export default Layout();
+
+# Teambuilder API
+
+## Archetype
+
+- Hyper Offense **ho**
+- Stall **stall**
+- Bulky Offense **bo**
+- Balance **balance**
+- Weather **weather**
+
+### API Endpoint
+
+<ArchetypeEndpoint />
+
+### Request
+
+Using Javascript:
+
+<CodeHighlight
+  language="javascript"
+  code={`
+const url = "https://tobethebest.vercel.app/api/teambuilder?archetype=ho";
+fetch(url)
+  .then((res) => res.json())
+  .then((data) => console.log(data));
+`}
+/>
+
+### Response
+
+<CodeHighlight
+  language="json"
+  code={`
+[
+    {
+      "name": "",
+      "species": "Volcarona",
+      "gender": "",
+      "item": "Heavy-Duty Boots",
+      "ability": "Flame Body",
+      "evs": { "hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252 },
+      "nature": "Timid",
+      "ivs": { "hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "moves": ["Quiver Dance", "Bug Buzz", "Flamethrower", "Tera Blast"]
+    },
+    ...
+]
+`}
+/>

@@ -15,6 +15,7 @@ jobs:
       - name: Run Tests
         run: |
           cd backend
+          pip install -r requirements.txt
           npm run test
       - name: Install Vercel CLI
         if: success()
@@ -23,5 +24,10 @@ jobs:
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
       - name: Build Project Artifacts
         run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Check Build Size
+        run: |
+          ls -alh
+          cd backend
+          ls -alh
       - name: Deploy Project Artifacts to Vercel
         run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}

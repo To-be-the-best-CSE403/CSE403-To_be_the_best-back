@@ -14,7 +14,7 @@
 }
 
 .container {
-  margin-top: var(--mantine-spacing-xl);
+  margin: var(--mantine-spacing-xl);
   width: 80%;
   max-width: var(--docs-mdx-content-width);
   margin-left: auto;

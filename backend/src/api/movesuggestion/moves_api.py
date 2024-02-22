@@ -4,11 +4,8 @@ from .moves_algo import most_effective
 import json
 from database.webscraper import create_db_connection
 
-TYPES = set("normal", "fire", "water", "electric",
-            "grass", "ice", "fighting", "poison",
-            "ground", "flying", "psychic", "bug",
-            "rock", "ghost", "dragon", "dark",
-            "steel", "fairy")
+TYPES = set(["normal", "fire", "water", "grass", "electric", "flying", "dark", "psychic"
+             , "steel", "bug", "ghost", "rock", "ground", "fairy", "ice", "dragon", "fighting"])
 
 
 def compute_effectiveness(move1type: str, move1power: int,
