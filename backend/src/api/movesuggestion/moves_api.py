@@ -4,27 +4,11 @@ from .moves_algo import most_effective
 import json
 from database.webscraper import create_db_connection
 
-TYPES = set()
-
-
-def get_move(opptype: str):
-    """
-    API for getting an optimal move based on the opponent's type provided.
-
-    :param opptype: The type of the opponent.
-    :return: A JSON response containing the most effective move.
-    """
-    opptype = opptype.lower()
-
-    if opptype not in TYPES:
-        return (
-            jsonify({"error": f"Invalid type given, type should be one of: {TYPES}"}),
-            400,
-        )
-
-    optimal = most_effective(opptype)
-
-    return jsonify(optimal)
+TYPES = set("normal", "fire", "water", "electric",
+            "grass", "ice", "fighting", "poison",
+            "ground", "flying", "psychic", "bug",
+            "rock", "ghost", "dragon", "dark",
+            "steel", "fairy")
 
 
 def compute_effectiveness(move1type: str, move1power: int,
@@ -43,8 +27,8 @@ def compute_effectiveness(move1type: str, move1power: int,
     :param move3power: Base power of the third move
     :param move4type: Type of the fourth move
     :param move4power: Base power of the fourth move
-    :param enemy1type: First type of enemy
-    :param enemy2type: Second type of enemy, (default empty since this type is not guaranteed)
+    :param pokemon_name: Name of user pokemon
+    :param enemy_name: enemy pokemon name
     
     :return: The corresponding number for the strongest move
     """
@@ -56,8 +40,23 @@ def compute_effectiveness(move1type: str, move1power: int,
     move3type.lower()
     move4type.lower()
     
-    # enemytype1.lower()
-    # enemytype2.lower()4
+    if move1type not in TYPES:
+        return (
+            jsonify({"error": "move1type is invalid"})
+        )
+    if move2type not in TYPES:
+        return (
+            jsonify({"error": "move2type is invalid"})
+        )    
+    if move3type not in TYPES:
+        return (
+            jsonify({"error": "move3type is invalid"})
+        )    
+    if move4type not in TYPES:
+        return (
+            jsonify({"error": "move4type is invalid"})
+        )
+        
     connection = create_db_connection()
     cursor = connection.cursor()
     
