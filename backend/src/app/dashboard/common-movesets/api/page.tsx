@@ -1,7 +1,12 @@
-export default function CommonMovesetsAPI() {
+"use client";
+
+import React from "react";
+import MovesetAPIMdx from "./moveset-api.mdx";
+
+export default function TeambuilderAPI() {
   return (
     <div>
-      <h1>Common Movesets API</h1>
+      <MovesetAPIMdx />
     </div>
   );
 }
