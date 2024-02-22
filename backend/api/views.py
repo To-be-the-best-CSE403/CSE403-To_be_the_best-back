@@ -1,7 +1,6 @@
 from flask import Blueprint, request, jsonify
 from src.constants import DEFAULT_DATE, DEFAULT_TIER, DEFAULT_BASELINE
 from src.api.teambuilder.teambuilder_api import get_team
-from database.webscraper import get_data_specific
 from src.api.movesuggestion.moves_api import compute_effectiveness
 from src.api.endpoints import get_usage_rate, get_usage_top, get_usage_timeline
 
@@ -21,9 +20,24 @@ def api_teambuilder():
 
     return get_team(archetype)
 
-#TODO: figure out how to properly handle the variable number url
-@views.route("/battle-gen9ou-<int:battleid>", methods=["GET"])
-def move_selector(battleid: int):
+#TODO: figure out how to format url for below (existing format is still flexible)
+@views.route("battle", methods=["GET"])
+def move_selector():
+    """
+    API endpoint to get a value for the strongest move to use (return is a value 1-4)
+    Example usage:
+    /battle/?
+    move1type=water&
+    move2type=grass&
+    move3type=normal&
+    move4type=ghost&
+    move1power=10&
+    move2power=0&
+    move3power=50&
+    move4power=100&
+    pokemon_name=GreatTusk&
+    enemy_name=Kingambit
+    """
     move1type = request.args.get("move1type")
     move2type = request.args.get("move2type")
     move3type = request.args.get("move3type")
