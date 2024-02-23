@@ -7,11 +7,12 @@ import os
 import mysql.connector as mysql
 
 
-TYPES = set("normal", "fire", "water", "electric",
+
+TYPES = set(["normal", "fire", "water", "electric",
             "grass", "ice", "fighting", "poison",
             "ground", "flying", "psychic", "bug",
             "rock", "ghost", "dragon", "dark",
-            "steel", "fairy")
+            "steel", "fairy"])
 
 
 def compute_effectiveness(move1type: str, move1power: int,
