@@ -1,10 +1,24 @@
-import { IconCompass, IconDashboard, IconDeviceAnalytics, IconGauge, IconPokeball } from '@tabler/icons-react';
+import { IconCompass, IconDashboard, IconDeviceAnalytics, IconGauge, IconPokeball, IconInfoCircle } from '@tabler/icons-react';
 import { NavItem } from '@/types/nav-item';
 
 export const navLinks: NavItem[] = [
 	{ label: 'Getting Started', icon: IconCompass, link: '/dashboard/getting-started' },
 	{ label: 'Dashboard', icon: IconDashboard, link: '/dashboard' },
-
+    {
+        label: 'About Pages',
+        icon: IconInfoCircle,
+        initiallyOpened: true,
+        links: [
+            {
+                label: 'About Pokémon Showdown',
+                link: 'dashboard/about-pages/pokemon-showdown'
+            },
+            {
+                label: 'About the extension',
+                link: 'dashboard/about-pages/extension'
+            },
+        ]
+    },
 	{
 		label: 'Team Builder',
 		icon: IconPokeball,
