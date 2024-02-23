@@ -10,11 +10,11 @@ export const navLinks: NavItem[] = [
         initiallyOpened: true,
         links: [
             {
-                label: 'About Pokémon Showdown'
+                label: 'About Pokémon Showdown',
                 link: 'dashboard/about-pages/pokemon-showdown'
             },
             {
-                label: 'About the extension'
+                label: 'About the extension',
                 link: 'dashboard/about-pages/extension'
             },
         ]
