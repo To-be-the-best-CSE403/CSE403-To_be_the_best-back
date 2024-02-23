@@ -1,8 +1,9 @@
-import { IconCompass, IconDashboard, IconDeviceAnalytics, IconGauge, IconPokeball } from '@tabler/icons-react';
+import { IconCompass, IconDashboard, IconDeviceAnalytics, IconGauge, IconPokeball, InfoCircle } from '@tabler/icons-react';
 import { NavItem } from '@/types/nav-item';
 
 export const navLinks: NavItem[] = [
 	{ label: 'Getting Started', icon: IconCompass, link: '/dashboard/getting-started' },
+	{ label: 'About Page', icon: InfoCircle, link: '/dashboard/about-page'}
 	{ label: 'Dashboard', icon: IconDashboard, link: '/dashboard' },
 
 	{
