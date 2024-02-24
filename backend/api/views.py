@@ -20,11 +20,12 @@ def api_teambuilder():
 
     return get_team(archetype)
 
-#TODO: figure out how to format url for below (existing format is still flexible)
+
 @views.route("battle", methods=["GET"])
 def move_selector():
     """
-    API endpoint to get a value for the strongest move to use (return is a value 1-4)
+    API endpoint to get a value for the strongest move to use 
+    (return is a value 1-4 corresponding to one of the moves)
     Example usage:
     /battle/?
     move1type=water&
@@ -65,11 +66,15 @@ def move_selector():
         return jsonify(
             {"error": "enemy_name parameter is missing for move selector"}), 400
 
-    return compute_effectiveness(move1type, move1power,
-                                 move2type, move2power,
-                                 move3type, move3power,
-                                 move4type, move4power,
-                                 pokemon_name, enemy_name)
+    move_num = compute_effectiveness(move1type, move1power,
+                                    move2type, move2power,
+                                    move3type, move3power,
+                                    move4type, move4power,
+                                    pokemon_name, enemy_name)
+    if move_num is None:
+        return jsonify({
+            "error": "error occurred when trying to compute effectiveness"}), 400
+    return jsonify({"move_number": move_num})
 
 
 @views.route("/usage-rate", methods=["GET"])

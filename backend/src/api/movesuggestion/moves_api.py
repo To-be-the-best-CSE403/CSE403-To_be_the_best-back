@@ -1,10 +1,7 @@
 from flask import jsonify
-# from .moves_algo import opponent_type
-# from .moves_algo import most_effective
 import json
-# from database.webscraper import create_db_connection
-import os
 import mysql.connector as mysql
+import os
 
 
 
@@ -14,6 +11,16 @@ TYPES = set(["normal", "fire", "water", "electric",
             "rock", "ghost", "dragon", "dark",
             "steel", "fairy"])
 
+def _load_type_chart():
+    current_dir = os.path.dirname(__file__)
+    file_path = os.path.join(current_dir, "type_chart.json")
+    try:
+        with open(file_path) as file:
+            type_chart = json.load(file)
+        return type_chart
+    except FileNotFoundError:
+        print("type_chart.json not found")
+        return None
 
 def compute_effectiveness(move1type: str, move1power: int,
                           move2type: str, move2power: int,
@@ -36,14 +43,7 @@ def compute_effectiveness(move1type: str, move1power: int,
     
     :return: The corresponding number for the strongest move
     """
-    try:
-        with open("type_chart.json", "r") as json_file:
-            type_chart = json.load(json_file)
-    except FileNotFoundError:
-        # TODO: change this to different return
-        return (
-            jsonify({"error": "type_chart.json could not open"}), 400
-        )
+    type_chart = _load_type_chart()
     
     powers = [move1power, move2power, move3power, move4power]
     move_types = [move1type, move2type, move3type, move4type]
@@ -66,7 +66,7 @@ def compute_effectiveness(move1type: str, move1power: int,
     
     query_types = "SELECT Type1, Type2 FROM pokedex WHERE Name = %s"
     
-    cursor.execute(query_types, (pokemon_name))
+    cursor.execute(query_types, (pokemon_name,))
     row = cursor.fetchone()
     if not row:
         return (
@@ -76,7 +76,7 @@ def compute_effectiveness(move1type: str, move1power: int,
     if (len(row) > 1):
         type2 = row[1].lower()
     
-    cursor.execute(query_types, (enemy_name))
+    cursor.execute(query_types, (enemy_name,))
     row = cursor.fetchone()
     if not row:
         return (
@@ -112,7 +112,7 @@ def compute_effectiveness(move1type: str, move1power: int,
                 strongest_move = move_number
 
         
-    return jsonify({"move_number": strongest_move})
+    return strongest_move
 
 
 def _create_db_connection():

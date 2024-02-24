@@ -1,10 +1,6 @@
 import pytest
 from src.api.movesuggestion.moves_api import compute_effectiveness
 
-# TODO: CHANGE ALL TESTS SO THAT IT READS A JSONIFY VARIABLE INSTEAD OF INT FOR MOVE NUM
-
-
-@pytest.mark.skip(reason="need to finish up queries in moves_api")
 def test_all_neutral_no_stab():
     move_num = compute_effectiveness(
         "normal", 80,
@@ -16,7 +12,6 @@ def test_all_neutral_no_stab():
     )
     assert move_num == 4
     
-@pytest.mark.skip(reason="need to finish up queries in moves_api")
 def test_all_neutral_with_stab():
     move_num = compute_effectiveness(
         "dark", 80,
