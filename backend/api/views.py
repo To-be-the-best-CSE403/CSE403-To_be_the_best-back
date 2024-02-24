@@ -71,7 +71,7 @@ def move_selector():
                                     move3type, move3power,
                                     move4type, move4power,
                                     pokemon_name, enemy_name)
-    if move_num is None:
+    if move_num == -1:
         return jsonify({
             "error": "error occurred when trying to compute effectiveness"}), 400
     return jsonify({"move_number": move_num})
