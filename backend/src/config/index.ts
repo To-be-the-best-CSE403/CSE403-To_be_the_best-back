@@ -1,4 +1,4 @@
-import { IconCompass, IconDashboard, IconDeviceAnalytics, IconGauge, IconPokeball, IconInfoCircle } from '@tabler/icons-react';
+import { IconCompass, IconDashboard, IconDeviceAnalytics, IconGauge, IconPokeball, IconInfoCircle, IconVocabulary } from '@tabler/icons-react';
 import { NavItem } from '@/types/nav-item';
 
 export const navLinks: NavItem[] = [
@@ -72,4 +72,5 @@ export const navLinks: NavItem[] = [
 			}
 		],
 	},
+	{ label: 'Pokémon Battle Terminology', icon: IconVocabulary, link: '/dashboard/pokemon-battle-terminology'}
 ];
