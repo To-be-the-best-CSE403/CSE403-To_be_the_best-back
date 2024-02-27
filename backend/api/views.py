@@ -3,6 +3,7 @@ from src.constants import DEFAULT_DATE, DEFAULT_TIER, DEFAULT_BASELINE
 from src.api.teambuilder.teambuilder_api import get_team
 from src.api.movesuggestion.moves_api import compute_effectiveness
 from src.api.endpoints import get_usage_rate, get_usage_top, get_usage_timeline
+from src.api.infoviewer.view_info_api import retrieve_info
 
 views = Blueprint("views", __name__)
 
@@ -175,3 +176,35 @@ def api_common_movesets():
             "pokemon": pokemon,
         }
     )
+    
+
+# information that can be retrieved is based on the data stored within database:
+# most popular moves for the pokemon, items, abilities, spreads, teammates (with the percentages)
+# rename route based off frontend
+@views.route("/info-viewer", methods=["GET"])
+def api_view_pokemon_info():
+    """
+    API endpoint to view certain types of information about a specific pokemon
+    Example usage:
+    /api/info-viewer?
+    pokemon=Kingambit&
+    info_type=items
+    """
+    pokemon = request.args.get("pokemon")
+    info_type = request.args.get("info_type")
+
+    if not pokemon:
+        return jsonify({"error": 'Missing "pokemon" parameter'}), 400
+    if not info_type:
+        return jsonify({"error": 'Missing "pokemon" parameter'}), 400
+
+    info = retrieve_info(pokemon, info_type)
+    if not info:
+        return jsonify({"error": 'Error getting information'}), 400
+    
+    return jsonify(
+            {
+                "info": info
+            }
+        )
+    
