@@ -1,13 +1,12 @@
-from flask import jsonify
 import json
 import os
 
 def optimal_moveset(pokemon: str):
     """
-    API for getting a team based on the archetype provided.
+    API for getting an optimal moveset based on the Pokemon provided.
 
-    :param archetype: The archetype of the team to get.
-    :return: A JSON response containing the team.
+    :param pokemon: The pokemon that the user wants a moveset from.
+    :return: A JSON response containing the moveset.
     """
     pokemon = pokemon.lower().replace(" ", "")
 
