@@ -12,7 +12,7 @@ def optimal_moveset(pokemon: str):
 
     try:
         path = os.path.join(
-            "src", "api", "moveset", f"moveset_{pokemon}.json"
+            "src", "api", "movesets", f"moveset_{pokemon}.json"
         )
         with open(path) as file:
             return json.load(file)
