@@ -3,7 +3,7 @@
 import React from "react";
 import MovesetAPIMdx from "./moveset-api.mdx";
 
-export default function TeambuilderAPI() {
+export default function MovesetAPI() {
   return (
     <div>
       <MovesetAPIMdx />
