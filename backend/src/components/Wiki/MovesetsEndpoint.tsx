@@ -27,7 +27,7 @@ export function MovesetsEndpoint() {
             <br />
             <CodeHighlight
                 language="bash"
-                code={`/api/movesets?archetype=${pokemon}`}
+                code={`/api/movesets?pokemon=${pokemon}`}
             />
         </>
     );
