@@ -10,16 +10,16 @@ export function MovesetsEndpoint() {
             <NativeSelect
                 description="Top 10 Pokemon"
                 data={[
-                    { label: "Great Tusk", value: "gt" },
-                    { label: "Kingambit", value: "king" },
-                    { label: "Gholdengo", value: "ghold" },
-                    { label: "Raging Bolt", value: "rb" },
-                    { label: "Gliscor", value: "glis" },
-                    { label: "Volcarona", value: "volc" },
-                    { label: "Dragapult", value: "drag" },
-                    { label: "Iron Valiant", value: "iv" },
-                    { label: "Roaring Moon", value: "rm" },
-                    { label: "Hatterene", value: "hatt" }
+                    { label: "Great Tusk", value: "greattusk" },
+                    { label: "Kingambit", value: "kingambit" },
+                    { label: "Gholdengo", value: "gholdengo" },
+                    { label: "Raging Bolt", value: "ragingbolt" },
+                    { label: "Gliscor", value: "gliscor" },
+                    { label: "Volcarona", value: "volcarona" },
+                    { label: "Dragapult", value: "dragapult" },
+                    { label: "Iron Valiant", value: "ironvaliant" },
+                    { label: "Roaring Moon", value: "roaringmoon" },
+                    { label: "Hatterene", value: "hatterene" }
                 ]}
                 value={pokemon}
                 onChange={(event) => setPokemon(event.currentTarget.value)}
