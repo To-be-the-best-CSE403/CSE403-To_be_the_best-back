@@ -38,7 +38,7 @@ def retrieve_info(pokemon: str, info_type: str):
 
     formatted_output = formatted_output.strip()  # Remove any leading/trailing whitespace
 
-    return formatted_output
+    return formatted_output.title()
 
 
 def _create_db_connection():
