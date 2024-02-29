@@ -1,12 +1,12 @@
 "use client";
 
 import React from "react";
-import MovesetAPIMdx from "./moveset-api.mdx";
+import MovesetsAPIMdx from "./movesets-api.mdx";
 
-export default function TeambuilderAPI() {
+export default function MovesetsAPI() {
   return (
     <div>
-      <MovesetAPIMdx />
+      <MovesetsAPIMdx />
     </div>
   );
 }

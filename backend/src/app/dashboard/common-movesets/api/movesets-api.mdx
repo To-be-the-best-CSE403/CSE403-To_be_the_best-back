@@ -1,0 +1,57 @@
+import { Layout } from "@/components/Mdx/MdxLayout";
+import { CodeHighlight } from "@mantine/code-highlight";
+import { MovesetsEndpoint } from "@/components/Wiki/MovesetsEndpoint";
+
+export default Layout();
+
+# Common Movesets API
+
+## Movesets for the Top 10 Most Used Pokemon in January 2024
+
+- Great Tusk
+- Kingambit
+- Gholdengo
+- Raging Bolt
+- Gliscor
+- Volcarona
+- Dragapult
+- Iron Valiant
+- Roaring Moon
+- Hatterene
+
+### Choose your Pokemon!
+
+<MovesetsEndpoint />
+
+### Request
+
+Using Javascript:
+
+<CodeHighlight
+  language="javascript"
+  code={`
+const url = "https://tobethebest.vercel.app/api/movesets?pokemon=greattusk";
+fetch(url)
+  .then((res) => res.json())
+  .then((data) => console.log(data));
+`}
+/>
+
+### Response
+
+<CodeHighlight
+  language="json"
+  code={`
+[
+    {
+        "species": "Great Tusk",
+        "moves": [
+            "Rapid Spin",
+            "Ice Spinner",
+            "Headlong Rush",
+            "Knock Off"
+        ]
+    }
+]
+`}
+/>
