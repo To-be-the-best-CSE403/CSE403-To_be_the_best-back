@@ -1,12 +1,12 @@
 "use client";
 
 import React from "react";
-import ContactUsMdx from "./contact-us.mdx";
+import ContactForm from "../../../components/Contact-Form/contact-form";
 
 export default function ContactUs() {
     return (
         <div>
-            <div dangerouslySetInnerHTML={{__html: ContactUsMdx}} />
+            <ContactForm />
         </div>
     );
 }
