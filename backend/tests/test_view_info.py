@@ -70,3 +70,7 @@ def test_malformed_input_casing():
 def test_info_type_wrong():
     result = retrieve_info("GrEat tuSk", "wrong")
     assert result == ("")
+    
+def test_not_pokemon():
+    result = retrieve_info("not a pokemon", "moves")
+    assert result == ""
