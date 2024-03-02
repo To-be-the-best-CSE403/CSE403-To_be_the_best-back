@@ -14,8 +14,9 @@ export default function ContactForm() {
                 <input id="email" type="email" name="email" size="30"/>
                 <ValidationError prefix="Email" field="email" errors={state.errors} />
             </div>
+            <br></br>
+            <label htmlFor="message">Message</label>
             <div>
-                <label htmlFor="message">Message</label>
                 <textarea id="message" name="message" rows="10" cols="50" />
                 <ValidationError prefix="Message" field="message" errors={state.errors} />
             </div>
