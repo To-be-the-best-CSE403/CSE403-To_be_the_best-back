@@ -1,4 +1,4 @@
-import { IconCompass, IconDashboard, IconDeviceAnalytics, IconGauge, IconPokeball, IconInfoCircle, IconVocabulary } from '@tabler/icons-react';
+import { IconCompass, IconDashboard, IconDeviceAnalytics, IconGauge, IconPokeball, IconInfoCircle, IconVocabulary, IconMail } from '@tabler/icons-react';
 import { NavItem } from '@/types/nav-item';
 
 export const navLinks: NavItem[] = [
@@ -72,5 +72,6 @@ export const navLinks: NavItem[] = [
 			}
 		],
 	},
-	{ label: 'Pokémon Battle Terminology', icon: IconVocabulary, link: '/dashboard/pokemon-battle-terminology'}
+	{ label: 'Pokémon Battle Terminology', icon: IconVocabulary, link: '/dashboard/pokemon-battle-terminology'},
+	{ label: 'Contact Us', icon: IconMail, link: '/dashboard/contact-us'}
 ];
