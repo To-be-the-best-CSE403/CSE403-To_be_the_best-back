@@ -9,6 +9,8 @@ export default function ContactForm() {
 
     return (
         <form onSubmit={handleSubmit}>
+            <br></br>
+            <br></br>
             <label htmlFor="email">Email Address</label>
             <div>
                 <input id="email" type="email" name="email" size="30"/>
